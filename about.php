@@ -71,7 +71,16 @@
             <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                 <div>
                     <h4 class="text-primary">About Us</h4>
-                    <h1 class="display-5 mb-4">Empowering the Pasmanda Community for a Brighter Future</h1>
+                    <h1 class="display-5 mb-4">Empowering the Pasmanda Community for a Brighter Future</h1><p>
+Pasmanda Vikas Foundation has been established to raise the voice of the rights of the Pasmanda/Backward classes in the country by bringing together like-minded people and organizations and to solve/resolve the problems/issues faced anywhere in the country.
+
+So that a completely just and inclusive society can be created.
+
+All Pasmanda/Backward people are equal.
+
+Pasmanda Vikas Foundation:- Emphasizes the importance of equality and unity among all Indians, irrespective of their culture, social status, religion, sect/community/faction, caste or ethnicity.
+
+PVF is committed and assured that in the coming years, it will ensure its participation in making the country powerful at the global level and in maintaining the unity and integrity of the nation by making all the Pasmanda/Backward classes strong educationally, socially, economically and politically.</p>
                     <p class="mb-4">The Pasmanda Vikas Foundation is dedicated to the upliftment and welfare of the Pasmanda community, including Muslim OBCs, SCs, and STs. Our mission is to provide support and resources that foster social justice, economic empowerment, and educational advancement to ensure a more equitable and prosperous future for all community members.</p>
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-6 col-xl-6">
