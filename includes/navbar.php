@@ -11,7 +11,7 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link ">About</a>
-                        <a href="members.php" class="nav-item nav-link">Office Bearers</a>
+                        <a href="members.php" class="nav-item nav-link">Team</a>
                         <a href="service.php" class="nav-item nav-link">Services</a>
                        <!-- <a href="blog.php" class="nav-item nav-link">Blogs</a>
                         <div class="nav-item dropdown">
