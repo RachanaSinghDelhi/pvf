@@ -58,7 +58,7 @@
                                 <div class="col-lg-0 col-xl-5"></div>
                                 <div class="col-xl-7 animated fadeInLeft">
                                     <div class="text-sm-center text-md-end">
-                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Empowerment Through Inclusion</h4>
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Empowerment Through </h4>
                                         <h1 class="display-4 text-uppercase text-white mb-4">Equal Access, Equal Opportunity</h1>
                                         <p class="mb-5 fs-5"> Transforming Lives of Muslim OBCs, SCs, and STs for a Brighter Tomorrow
                                         </p>
