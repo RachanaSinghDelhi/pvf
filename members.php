@@ -76,7 +76,7 @@
             <!-- Existing Team Members -->
             <!-- Team Member 1 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="team-item">img/members/team/meraj.jpg
+                <div class="team-item">
                     <div class="team-img">
                         <img src="img/members/team/meraj.jpg" class="img-fluid" alt="Md Meraj Rayeen">
                     </div>
