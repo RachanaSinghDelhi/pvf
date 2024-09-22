@@ -73,103 +73,107 @@
             <p class="mb-0">Our dedicated team drives the mission of the Pasmanda Vikas Foundation with a focus on community upliftment, legal support, and empowerment.</p>
         </div>
         <div class="row g-4">
-            <!-- Existing Team Members -->
-            <!-- Team Member 1 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/members/team/meraj.jpg" class="img-fluid" alt="Md Meraj Rayeen">
-                    </div>
-                    <div class="team-title text-center mt-3">
-                        <h4 class="mb-0">Md Meraj Rayeen</h4>
-                        <p class="mb-0">Director</p>
-                    </div>
-                </div>
+    <!-- Women's Team -->
+    <div class="col-12">
+        <h3 class="text-center mb-4">Women's Team</h3>
+    </div>
+    <!-- Team Member 1 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="team-item">
+            <div class="team-img">
+                <img src="img/members/team/anjum.jpg" class="img-fluid" alt="Anjum Ara Saltanat">
             </div>
-            <!-- Team Member 2 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/members/team/anjum.jpg" class="img-fluid" alt="Anjum Ara Saltanat">
-                    </div>
-                    <div class="team-title text-center mt-3">
-                        <h4 class="mb-0">Anjum Ara Saltanat</h4>
-                        <p class="mb-0">Head of Women's Team</p>
-                        <p class="mb-0">Graduate, IGNOU, Delhi</p>
-                    </div>
-                </div>
+            <div class="team-title text-center mt-3">
+                <h4 class="mb-0">Anjum Ara Saltanat</h4>
+                <p class="mb-0">Head of Women's Team</p>
+                <p class="mb-0">Graduate, IGNOU, Delhi</p>
             </div>
-            <!-- Team Member 3 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/members/team/farha.jpg" class="img-fluid" alt="Farha Mirza">
-                    </div>
-                    <div class="team-title text-center mt-3">
-                        <h4 class="mb-0">Advocate Farha Mirza</h4>
-                        <p class="mb-0">LLB, MJP Rohilkhand University</p>
-                        <p class="mb-0">Head of Women's Team</p>
-                    </div>
-                </div>
+        </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="team-item">
+            <div class="team-img">
+                <img src="img/members/team/farha.jpg" class="img-fluid" alt="Farha Mirza">
             </div>
-            <!-- Team Member 4 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/members/team/akhtar_ali.jpg" class="img-fluid" alt="Dr Akhtar Ali">
-                    </div>
-                    <div class="team-title text-center mt-3">
-                        <h4 class="mb-0">Dr Akhtar Ali</h4>
-                        <p class="mb-0">PhD, M.Phil Urdu</p>
-                        <p class="mb-0">Head of Management Team</p>
-                    </div>
-                </div>
+            <div class="team-title text-center mt-3">
+                <h4 class="mb-0">Advocate Farha Mirza</h4>
+                <p class="mb-0">LLB, MJP Rohilkhand University</p>
+                <p class="mb-0">Head of Women's Team</p>
             </div>
-            <!-- Team Member 5 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.0s">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/members/team/sarwar.jpg" class="img-fluid" alt="Md Sarwar Alam">
-                    </div>
-                    <div class="team-title text-center mt-3">
-                        <h4 class="mb-0">Md Sarwar Alam</h4>
-                        <p class="mb-0">M.Com., Magadh University</p>
-                        <p class="mb-0">Head of Management Team</p>
-                    </div>
-                </div>
+        </div>
+    </div>
+    
+    <!-- Management Team -->
+    <div class="col-12">
+        <h3 class="text-center mb-4">Management Team</h3>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="team-item">
+            <div class="team-img">
+                <img src="img/members/team/meraj.jpg" class="img-fluid" alt="Md Meraj Rayeen">
             </div>
-
-            <!-- New Team Member 6 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.2s">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/members/team/wasim.jpg" class="img-fluid" alt="Mufti Wasim Akram Qasmi">
-                    </div>
-                    <div class="team-title text-center mt-3">
-                        <h4 class="mb-0">Mufti Wasim Akram Qasmi</h4>
-                        <p class="mb-0">Mufti-Aalim, Darul Uloom Deoband, U.P.</p>
-                        <p class="mb-0">Head of Ulema Team</p>
-                    </div>
-                </div>
+            <div class="team-title text-center mt-3">
+                <h4 class="mb-0">Md Meraj Rayeen</h4>
+                <p class="mb-0">Director</p>
             </div>
-            
-            <!-- New Team Member 7 (Centered) -->
-            <div class="col-md-6 col-lg-4 offset-md-4 wow fadeInUp" data-wow-delay="1.4s">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/members/team/zahid.jpg" class="img-fluid" alt="Moulana Md Zahid Alam">
-                    </div>
-                    <div class="team-title text-center mt-3">
-                        <h4 class="mb-0">Moulana Md Zahid Alam</h4>
-                        <p class="mb-0">Aalim, Mazahir Uloom Waqf, Saharanpur, U.P.</p>
-                        <p class="mb-0">Head of Ulema Team</p>
-                    </div>
-                </div>
+        </div>
+    </div>
+    <!-- Team Member 4 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-item">
+            <div class="team-img">
+                <img src="img/members/team/akhtar_ali.jpg" class="img-fluid" alt="Dr Akhtar Ali">
+            </div>
+            <div class="team-title text-center mt-3">
+                <h4 class="mb-0">Dr Akhtar Ali</h4>
+                <p class="mb-0">PhD, M.Phil Urdu</p>
+                <p class="mb-0">Head of Management Team</p>
+            </div>
+        </div>
+    </div>
+    <!-- Team Member 5 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.0s">
+        <div class="team-item">
+            <div class="team-img">
+                <img src="img/members/team/sarwar.jpg" class="img-fluid" alt="Md Sarwar Alam">
+            </div>
+            <div class="team-title text-center mt-3">
+                <h4 class="mb-0">Md Sarwar Alam</h4>
+                <p class="mb-0">M.Com., Magadh University</p>
+                <p class="mb-0">Head of Management Team</p>
+            </div>
+        </div>
+    </div>
+    <!-- New Team Member 6 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.2s">
+        <div class="team-item">
+            <div class="team-img">
+                <img src="img/members/team/wasim.jpg" class="img-fluid" alt="Mufti Wasim Akram Qasmi">
+            </div>
+            <div class="team-title text-center mt-3">
+                <h4 class="mb-0">Mufti Wasim Akram Qasmi</h4>
+                <p class="mb-0">Mufti-Aalim, Darul Uloom Deoband, U.P.</p>
+                <p class="mb-0">Head of Ulema Team</p>
+            </div>
+        </div>
+    </div>
+    <!-- New Team Member 7 (Centered) -->
+    <div class="col-md-6 col-lg-4 offset-md-4 wow fadeInUp" data-wow-delay="1.4s">
+        <div class="team-item">
+            <div class="team-img">
+                <img src="img/members/team/zahid.jpg" class="img-fluid" alt="Moulana Md Zahid Alam">
+            </div>
+            <div class="team-title text-center mt-3">
+                <h4 class="mb-0">Moulana Md Zahid Alam</h4>
+                <p class="mb-0">Aalim, Mazahir Uloom Waqf, Saharanpur, U.P.</p>
+                <p class="mb-0">Head of Ulema Team</p>
             </div>
         </div>
     </div>
 </div>
-<!-- Core Team End -->
+<!--team members entds-->
 
 
 
