@@ -25,6 +25,7 @@
         <a href="team.php#ulema" class="dropdown-item">Ulema Team</a>
                             </div></div>
                         <a href="service.php" class="nav-item nav-link">Services</a>
+                        <a href="donate.php" class="nav-item nav-link">Donate Now</a>
                        <!-- <a href="blog.php" class="nav-item nav-link">Blogs</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link" data-bs-toggle="dropdown">
