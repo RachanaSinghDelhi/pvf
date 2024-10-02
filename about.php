@@ -103,14 +103,14 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Get Involved</a>
+                            <a href="contact.php" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Get Involved</a>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex">
                                 <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
                                 <div>
                                     <h4>Contact Us</h4>
-                                    <p class="mb-0 fs-5" style="letter-spacing: 1px;">+91 123 456 7890</p>
+                                    <p class="mb-0 fs-5" style="letter-spacing: 1px;">(+91) 98765 43210</p>
                                 </div>
                             </div>
                         </div>

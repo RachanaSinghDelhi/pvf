@@ -86,7 +86,7 @@
             <div class="modal-body">
          
                 <h6>Become A Member</h6>
-                <p><strong>PASMANDA VIKASH FOUNDATION</strong></p>
+                <p><strong>PASMANDA VIKAS FOUNDATION</strong></p>
                 <p><strong>C/A No.:</strong> 924020050695947</p>
                 <p><strong>IFSC CODE:</strong> UTIB0001838</p>
                 <p><strong>BRANCH:</strong> MUKHERGJEE NAGAR, NEW DELHI 110009</p>

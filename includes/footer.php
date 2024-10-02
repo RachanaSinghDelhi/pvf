@@ -27,7 +27,7 @@
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="fas fa-envelope text-primary me-3"></i>
-                        <p class="text-white mb-0">contact@pasmandavikas.org</p>
+                        <p class="text-white mb-0">contact@pasmandavikasfoundation.com</p>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="fa fa-phone-alt text-primary me-3"></i>
@@ -39,10 +39,10 @@
                 <div class="footer-item">
                     <h4 class="text-white mb-4">Follow Us</h4>
                     <div class="d-flex">
-                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
-                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
-                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
-                        <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.facebook.com/people/Pasmanda-Vikas-Foundation/61560470844229/?mibextid=ZbWKwL"><i class="fab fa-facebook-f text-white"></i></a>
+                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://x.com/PasmandaVikasF?t=rYcBFeQZ1_sZY71GsWUBaw&s=09&mx=2"><i class="fab fa-twitter text-white"></i></a>
+                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.instagram.com/pasmanda_vikas_foundation/?igsh=MXVnNGQ2cHNwZDBncA%3D%3D"><i class="fab fa-instagram text-white"></i></a>
+                        <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="https://www.youtube.com/@pasmandavikasfoundation"><i class="fab fa-youtube text-white"></i></a>
                     </div>
                 </div>
             </div>

@@ -17,9 +17,10 @@
                                 <span class="dropdown-toggle">Our Team</span>
                             </a>
                             <div class="dropdown-menu m-0">
+                            <a href="team.php#directors" class="dropdown-item">Directors</a>
                             <a href="team.php#management" class="dropdown-item">Management Team</a>
         <a href="team.php#guidance" class="dropdown-item">Guidance Board</a>
-        <a href="team.php#directors" class="dropdown-item">director's Team</a>
+      
         <a href="team.php#womens-team" class="dropdown-item">Woman's Team</a>
         <a href="team.php#legal" class="dropdown-item">legal Team</a>
         <a href="team.php#ulema" class="dropdown-item">Ulema Team</a>

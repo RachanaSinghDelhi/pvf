@@ -50,11 +50,11 @@
             <!-- Header Start -->
             <div class="container-fluid bg-breadcrumb">
                 <div class="container text-center py-5" style="max-width: 900px;">
-                    <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Office Bearer</h4>
+                    <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Team</h4>
                     <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item active text-primary">Office Bearer</li>
+                        <li class="breadcrumb-item active text-primary">Our Team</li>
                     </ol>
                 </div>
             </div>
@@ -73,6 +73,57 @@
             <p class="mb-0">Our dedicated team drives the mission of the Pasmanda Vikas Foundation with a focus on community upliftment, legal support, and empowerment.</p>
         </div>
 </div>
+
+
+<!-- Director's Team Section Start -->
+<div id="directors" class="container py-5">
+    <br><br>
+    <div class="row g-4">
+        <!-- Director's Team Heading and Description -->
+        <div class="col-12">
+            <h3 class="text-center mb-4">Director's Team</h3>
+            <p class="text-center">
+                The Director’s Team consists of visionary leaders dedicated to providing strategic direction and guidance. Their experience and dedication are instrumental in driving the organization towards its mission of community upliftment and growth. The team members play a crucial role in ensuring the organization achieves its goals and serves the community effectively.
+            </p>
+        </div>
+
+        <!-- Director 1 (Nikhat Parveen) -->
+        <div class="col-md-6 col-lg-4 offset-md-2 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/director/nikhat.jpg" class="img-fluid" alt="Nikhat Parveen">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Nikhat Parveen</h4>
+                    <p class="mb-0">Director</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Director 2 (Md Meraj Rayeen) -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/director/meraj.jpg" class="img-fluid" alt="Md Meraj Rayeen">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Md Meraj Rayeen</h4>
+                    <p class="mb-0">Director</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Director's Team Section End -->
+
+
+
+
+
+
+
+
+
 
 <!-- Guidance Board Section Start -->
 <div class="container py-5" id="guidance">
@@ -189,137 +240,137 @@
 <!-- Guidance Board Section End -->
 
 
-
-
-        <div class="row g-4" id="womens-team">
-            <br><br>
-    <!-- Women's Team -->
-    <div class="col-12" >
+<div class="row g-4" id="womens-team">
+    <br><br>
+    <!-- Women's Team Introduction -->
+    <div class="col-12">
         <br><br>
         <h3 class="text-center mb-4">Women's Team</h3>
+        <p class="text-center">
+            Our Women's Team is dedicated to empowering and uplifting women in the community through education, advocacy, and support programs. With experienced leaders and passionate members, we aim to address key social issues and create a platform for women's voices to be heard. The team actively participates in workshops, seminars, and outreach activities to promote women's rights and encourage personal development.
+        </p>
     </div>
-    <!-- Team Member 1 -->
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="team-item">
-            <div class="team-img">
-                <img src="img/members/team/anjum.jpg" class="img-fluid" alt="Anjum Ara Saltanat">
-            </div>
-            <div class="team-title text-center mt-3">
-                <h4 class="mb-0">Anjum Ara Saltanat</h4>
-                <p class="mb-0">Head of Women's Team</p>
-                <p class="mb-0">Graduate, IGNOU, Delhi</p>
-            </div>
-        </div>
-    </div>
-    <!-- Team Member 2 -->
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-        <div class="team-item">
-            <div class="team-img">
-                <img src="img/members/team/farha.jpg" class="img-fluid" alt="Farha Mirza">
-            </div>
-            <div class="team-title text-center mt-3">
-                <h4 class="mb-0">Advocate Farha Mirza</h4>
-                <p class="mb-0">LLB, MJP Rohilkhand University</p>
-                <p class="mb-0">Head of Women's Team</p>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Management Team -->
-     <div id="management" class="container py-5">
-        <br><br>
-       
-    <div class="col-12">
-        <h3 class="text-center mb-4">Management Team</h3>
-    </div>
-</div>
 
-
-    <!-- Team Member 3 -->
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="team-item">
-            <div class="team-img">
-                <img src="img/members/team/meraj.jpg" class="img-fluid" alt="Md Meraj Rayeen">
-            </div>
-            <div class="team-title text-center mt-3">
-                <h4 class="mb-0">Md Meraj Rayeen</h4>
-                <p class="mb-0">Director</p>
-            </div>
-        </div>
-    </div>
-    <!-- Team Member 4 -->
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
-        <div class="team-item">
-            <div class="team-img">
-                <img src="img/members/team/akhtar_ali.jpg" class="img-fluid" alt="Dr Akhtar Ali">
-            </div>
-            <div class="team-title text-center mt-3">
-                <h4 class="mb-0">Dr Akhtar Ali</h4>
-                <p class="mb-0">PhD, M.Phil Urdu</p>
-                <p class="mb-0">Head of Management Team</p>
-            </div>
-        </div>
-    </div>
-    <!-- Team Member 5 -->
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.0s">
-        <div class="team-item">
-            <div class="team-img">
-                <img src="img/members/team/sarwar.jpg" class="img-fluid" alt="Md Sarwar Alam">
-            </div>
-            <div class="team-title text-center mt-3">
-                <h4 class="mb-0">Md Sarwar Alam</h4>
-                <p class="mb-0">M.Com., Magadh University</p>
-                <p class="mb-0">Head of Management Team</p>
-            </div>
-        </div>
-    </div>
-    <!-- New Team Member 6 -->
-    
-</div>
-<!--team members entds-->
-
-<!-- Director's Team Section Start -->
-<div id="directors" class="container py-5">
-    <br><br>
+    <!-- Team Members (Anjum and Farha) -->
     <div class="row g-4">
-        <!-- Director's Team Heading and Description -->
-        <div class="col-12">
-            <h3 class="text-center mb-4">Director's Team</h3>
-            <p class="text-center">
-                The Director’s Team consists of visionary leaders dedicated to providing strategic direction and guidance. Their experience and dedication are instrumental in driving the organization towards its mission of community upliftment and growth. The team members play a crucial role in ensuring the organization achieves its goals and serves the community effectively.
-            </p>
-        </div>
-
-        <!-- Director 1 (Nikhat Parveen) -->
-        <div class="col-md-6 col-lg-4 offset-md-2 wow fadeInUp" data-wow-delay="0.2s">
+        <!-- Team Member 1 -->
+        <div class="col-md-6 col-lg-4  offset-md-2 wow fadeInUp" data-wow-delay="0.2s">
             <div class="team-item">
                 <div class="team-img">
-                    <img src="img/members/director/nikhat.jpg" class="img-fluid" alt="Nikhat Parveen">
+                    <img src="img/members/team/anjum.jpg" class="img-fluid" alt="Anjum Ara Saltanat">
                 </div>
                 <div class="team-title text-center mt-3">
-                    <h4 class="mb-0">Nikhat Parveen</h4>
-                    <p class="mb-0">Director</p>
+                    <h4 class="mb-0">Anjum Ara Saltanat</h4>
+                    <p class="mb-0">Head of Women's Team</p>
+                    <p class="mb-0">Graduate, IGNOU, Delhi</p>
                 </div>
             </div>
         </div>
 
-        <!-- Director 2 (Md Meraj Rayeen) -->
+        <!-- Team Member 2 -->
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
             <div class="team-item">
                 <div class="team-img">
-                    <img src="img/members/director/meraj.jpg" class="img-fluid" alt="Md Meraj Rayeen">
+                    <img src="img/members/team/farha.jpg" class="img-fluid" alt="Farha Mirza">
                 </div>
                 <div class="team-title text-center mt-3">
-                    <h4 class="mb-0">Md Meraj Rayeen</h4>
-                    <p class="mb-0">Director</p>
+                    <h4 class="mb-0">Advocate Farha Mirza</h4>
+                    <p class="mb-0">LLB, MJP Rohilkhand University</p>
+                    <p class="mb-0">Head of Women's Team</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row for All Meetings in One Row -->
+    <div class="row g-4 mt-4">
+        <!-- Meeting 1 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/woman_team/woman (1).jpg" class="img-fluid" alt="Women's Meeting 1">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Women's Team Meeting</h4>
+                    <p class="mb-0">Discussing Community Initiatives</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Meeting 2 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/woman_team/woman (2).jpg" class="img-fluid" alt="Women's Meeting 2">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Women's Team Discussion</h4>
+                    <p class="mb-0">Planning Future Projects</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Meeting 3 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/woman_team/woman (3).jpg" class="img-fluid" alt="Women's Meeting 3">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Women's Empowerment Session</h4>
+                    <p class="mb-0">Focused on Skill Development</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Director's Team Section End -->
+
+    <!-- Management Team -->
+    
 
 
+    <div id="management" class="container py-5">
+   
+    <!-- Management Team Header -->
+    <div class="col-12">
+        <h3 class="text-center mb-4">Management Team</h3>
+    </div>
+    <br><br>
+    <!-- Row Wrapper for Management Team Members -->
+    <div class="row g-4">
+        <!-- Team Member 3 -->
+        <div class="col-md-6 col-lg-4 offset-md-2 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/team/akhtar_ali.jpg" class="img-fluid" alt="Dr Akhtar Ali">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Dr Akhtar Ali</h4>
+                    <p class="mb-0">PhD, M.Phil Urdu</p>
+                    <p class="mb-0">Head of Management Team</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.0s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/team/sarwar.jpg" class="img-fluid" alt="Md Sarwar Alam">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Md Sarwar Alam</h4>
+                    <p class="mb-0">M.Com., Magadh University</p>
+                    <p class="mb-0">Head of Management Team</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End of Row Wrapper -->
+</div> <!-- End of Container -->
+
+   
+
+<!--team members entds-->
 
 
 

@@ -63,16 +63,16 @@
                                         <p class="mb-5 fs-5"> Transforming Lives of Muslim OBCs, SCs, and STs for a Brighter Tomorrow
                                         </p>
                                         <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
-                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="https://www.youtube.com/watch?v=5gy2QcfViBM"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
                                             <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="contact.php">Contact Now</a>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-center justify-content-md-end">
                                             <h2 class="text-white me-2">Follow Us:</h2>
                                             <div class="d-flex justify-content-end ms-2">
-                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                            <a class="btn btn-md-square btn-light rounded-circle me-2" href="https://www.facebook.com/people/Pasmanda-Vikas-Foundation/61560470844229/?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://x.com/i/flow/login?redirect_after_login=%2FPasmandaVikasF"><i class="fab fa-twitter"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/pasmanda_vikas_foundation/?igsh=MXVnNGQ2cHNwZDBncA%3D%3D"><i class="fab fa-instagram"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href="https://www.youtube.com/watch?v=5gy2QcfViBM"><i class="fab fa-youtube"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -93,16 +93,16 @@
                                         <p class="mb-5 fs-5">Together, we uplift Muslim OBCs, SCs, and STs towards equality and prosperity.
                                         </p>
                                         <div class="d-flex justify-content-center flex-shrink-0 mb-4">
-                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="https://www.youtube.com/watch?v=5gy2QcfViBM"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
                                             <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Contact Now</a>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-center">
                                             <h2 class="text-white me-2">Follow Us:</h2>
                                             <div class="d-flex justify-content-end ms-2">
-                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href="https://www.facebook.com/people/Pasmanda-Vikas-Foundation/61560470844229/?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://x.com/i/flow/login?redirect_after_login=%2FPasmandaVikasF"><i class="fab fa-twitter"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/pasmanda_vikas_foundation/?igsh=MXVnNGQ2cHNwZDBncA%3D%3D"><i class="fab fa-instagram"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href="https://www.youtube.com/watch?v=5gy2QcfViBM"><i class="fab fa-youtube"></i></a>
                                             </div>
                                         </div>
                                     </div>
