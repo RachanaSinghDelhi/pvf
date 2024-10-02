@@ -72,9 +72,130 @@
             <h1 class="display-5 mb-4">Meet Our Leadership</h1>
             <p class="mb-0">Our dedicated team drives the mission of the Pasmanda Vikas Foundation with a focus on community upliftment, legal support, and empowerment.</p>
         </div>
-        <div class="row g-4">
+</div>
+
+<!-- Guidance Board Section Start -->
+<div class="container py-5" id="guidance">
+    <br><br>
+    <div class="row g-4" >
+        <!-- Guidance Board Heading and Description -->
+        <div class="col-12">
+            <h3 class="text-center mb-4">Guidance Board</h3>
+            <p class="text-center" style="line-height: 1.8; margin-bottom: 40px;">
+                The Guidance Board consists of distinguished scholars, educators, and social activists. Their expertise and dedication provide invaluable guidance to the organization, ensuring that it adheres to its vision of community service, educational excellence, and social upliftment. Each board member contributes unique insights, playing a pivotal role in shaping the organization’s strategy and long-term goals.
+            </p>
+        </div>
+
+        <!-- Guidance Board Members -->
+        <!-- Member 1: Akram Husain Qasmi -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/guide/akaram.jpg" class="img-fluid" alt="Akram Husain Qasmi">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h4 class="mb-0">Akram Husain Qasmi</h4>
+                    <p class="mb-0">Fazil/Aalim, Darul Uloom, Deoband, U.P.</p>
+                    <p class="mb-0">Guidance Board Member</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Member 2: Mufti Mahboob Rahman Qasmi -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/guide/rahman.jpg" class="img-fluid" alt="Mufti Mahboob Rahman Qasmi">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h4 class="mb-0">Mufti Mahboob Rahman Qasmi</h4>
+                    <p class="mb-0">Mufti-Aalim, Darul Uloom, Deoband, U.P.</p>
+                    <p class="mb-0">Guidance Board Member</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Member 3: Aftab Alam Ansari -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/guide/aftab.jpg" class="img-fluid" alt="Aftab Alam Ansari">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h4 class="mb-0">Aftab Alam Ansari</h4>
+                    <p class="mb-0">Retd. Professor, University of Delhi</p>
+                    <p class="mb-0">Guidance Board Member</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Member 4: Dr. Khadija Tahera -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/guide/tahera.jpg" class="img-fluid" alt="Dr. Khadija Tahera">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h4 class="mb-0">Dr. Khadija Tahera</h4>
+                    <p class="mb-0">M.A./Ph.D. Urdu, University of Delhi</p>
+                    <p class="mb-0">Guidance Board Member</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Member 5: Abdus Salam -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.0s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/guide/abdus.jpg" class="img-fluid" alt="Abdus Salam">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h4 class="mb-0">Abdus Salam</h4>
+                    <p class="mb-0">Social Worker</p>
+                    <p class="mb-0">Guidance Board Member</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Member 6: Syed Farrukh Saiar -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.2s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/guide/farukh.jpg" class="img-fluid" alt="Syed Farrukh Saiar">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h4 class="mb-0">Syed Farrukh Saiar</h4>
+                    <p class="mb-0">Social Worker</p>
+                    <p class="mb-0">Guidance Board Member</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Member 7: Murtuza Alam -->
+        <div class="col-offset-4 col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.4s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/guide/murtuza.jpg" class="img-fluid" alt="Murtuza Alam">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h4 class="mb-0">Murtuza Alam</h4>
+                    <p class="mb-0">Founder & National President, Dalit Muslim Halalkhor Kalyan Parishad, Varanasi, U.P.</p>
+                    <p class="mb-0">Guidance Board Member</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Guidance Board Section End -->
+
+
+
+
+        <div class="row g-4" id="womens-team">
+            <br><br>
     <!-- Women's Team -->
-    <div class="col-12">
+    <div class="col-12" >
+        <br><br>
         <h3 class="text-center mb-4">Women's Team</h3>
     </div>
     <!-- Team Member 1 -->
@@ -105,9 +226,15 @@
     </div>
     
     <!-- Management Team -->
+     <div id="management" class="container py-5">
+        <br><br>
+       
     <div class="col-12">
         <h3 class="text-center mb-4">Management Team</h3>
     </div>
+</div>
+
+
     <!-- Team Member 3 -->
     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
         <div class="team-item">
@@ -147,40 +274,109 @@
         </div>
     </div>
     <!-- New Team Member 6 -->
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.2s">
-        <div class="team-item">
-            <div class="team-img">
-                <img src="img/members/team/wasim.jpg" class="img-fluid" alt="Mufti Wasim Akram Qasmi">
-            </div>
-            <div class="team-title text-center mt-3">
-                <h4 class="mb-0">Mufti Wasim Akram Qasmi</h4>
-                <p class="mb-0">Mufti-Aalim, Darul Uloom Deoband, U.P.</p>
-                <p class="mb-0">Head of Ulema Team</p>
+    
+</div>
+<!--team members entds-->
+
+<!-- Director's Team Section Start -->
+<div id="directors" class="container py-5">
+    <br><br>
+    <div class="row g-4">
+        <!-- Director's Team Heading and Description -->
+        <div class="col-12">
+            <h3 class="text-center mb-4">Director's Team</h3>
+            <p class="text-center">
+                The Director’s Team consists of visionary leaders dedicated to providing strategic direction and guidance. Their experience and dedication are instrumental in driving the organization towards its mission of community upliftment and growth. The team members play a crucial role in ensuring the organization achieves its goals and serves the community effectively.
+            </p>
+        </div>
+
+        <!-- Director 1 (Nikhat Parveen) -->
+        <div class="col-md-6 col-lg-4 offset-md-2 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/director/nikhat.jpg" class="img-fluid" alt="Nikhat Parveen">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Nikhat Parveen</h4>
+                    <p class="mb-0">Director</p>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- New Team Member 7 (Centered) -->
-    <div class="col-md-6 col-lg-4 offset-md-4 wow fadeInUp" data-wow-delay="1.4s">
-        <div class="team-item">
-            <div class="team-img">
-                <img src="img/members/team/zahid.jpg" class="img-fluid" alt="Moulana Md Zahid Alam">
-            </div>
-            <div class="team-title text-center mt-3">
-                <h4 class="mb-0">Moulana Md Zahid Alam</h4>
-                <p class="mb-0">Aalim, Mazahir Uloom Waqf, Saharanpur, U.P.</p>
-                <p class="mb-0">Head of Ulema Team</p>
+
+        <!-- Director 2 (Md Meraj Rayeen) -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/director/meraj.jpg" class="img-fluid" alt="Md Meraj Rayeen">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Md Meraj Rayeen</h4>
+                    <p class="mb-0">Director</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!--team members entds-->
+<!-- Director's Team Section End -->
 
+
+
+
+
+<!-- Ulema Team Section Start -->
+
+<div class="container py-5" id="ulema">
+<br><br><br>
+    <div class="row g-4" >
+        
+        <!-- Ulema Team Heading and Description -->
+        <div class="col-12">
+            
+            <h3 class="text-center mb-4">Ulema Team</h3>
+            <p class="text-center">
+                Our Ulema Team is dedicated to guiding and educating the community with deep Islamic knowledge and wisdom. The team consists of respected scholars and leaders who have dedicated their lives to religious studies and community service. They play a pivotal role in maintaining and promoting Islamic values and ethics within the organization and beyond.
+            </p>
+        </div>
+        <!-- Ulema Team Members -->
+        <!-- Team Member 1 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/team/wasim.jpg" class="img-fluid" alt="Mufti Wasim Akram Qasmi">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Mufti Wasim Akram Qasmi</h4>
+                    <p class="mb-0">Mufti-Aalim, Darul Uloom Deoband, U.P.</p>
+                    <p class="mb-0">Head of Ulema Team</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/team/zahid.jpg" class="img-fluid" alt="Moulana Md Zahid Alam">
+                </div>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Moulana Md Zahid Alam</h4>
+                    <p class="mb-0">Aalim, Mazahir Uloom Waqf, Saharanpur, U.P.</p>
+                    <p class="mb-0">Head of Ulema Team</p>
+                </div>
+            </div>
+        </div>
+        <!-- Additional Ulema Team Member (Example) -->
+</div>
+
+<!-- Ulema Team Section End -->
 
 
 
     <!-- Legal Advisors Start -->
-<div class="container-fluid team pb-5">
-    <div class="container pb-5">
+     
+<div class="container-fluid team pb-5" id="legal">
+    <br><br>
+    <div class="container pb-5" >
+        <br><br>
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
             <h4 class="text-primary">Our Legal Advisors</h4>
             <h1 class="display-5 mb-4">Meet Our Legal Advisors</h1>
@@ -217,8 +413,10 @@
 </div>
 <!-- Legal Advisors End -->
 
-
+<br><br>
 <!-- Legal Aid Team Start -->
+<div Id="ulema" class="container py-5">
+<div class="py-5">
 <div class="container-fluid team pb-5">
     <div class="container pb-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
@@ -226,6 +424,7 @@
             <h1 class="display-5 mb-4">Meet the People Behind Our Legal Support</h1>
             <p class="mb-0">Our legal aid team works tirelessly to provide support and guidance to those in need within the Pasmanda community. Here's a look at the members who make it happen.</p>
         </div>
+</div></div>
         <div class="row g-4">
             <!-- Image 1 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">

@@ -127,7 +127,7 @@
                             <h1 class="display-5 mb-4">Empowering Unity:</h1>
                          <p>   Pasmanda Vikas Foundation has been established to raise the voice of the rights of the Pasmanda/Backward classes in the country by bringing together like-minded people and organizations and to solve/resolve the problems/issues faced anywhere in the country.
                      So that a completely just and inclusive society can be created.</p>
-                   <h4> All Pasmanda/Backward people are equal.</h4>
+                   <h4> All Pasmanda/Backward people are equal</h4>
                     <p>Pasmanda Vikas Foundation:- Emphasizes the importance of equality and unity among all Indians, irrespective of their culture, social status, religion, sect/community/faction, caste or ethnicity.
                     PVF is committed and assured that in the coming years, it will ensure its participation in making the country powerful at the global level and in maintaining the unity and integrity of the nation by making all the Pasmanda/Backward classes strong educationally, socially, economically and politically.</p>
                             <p class="mb-4">

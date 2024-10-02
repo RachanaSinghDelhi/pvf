@@ -10,8 +10,20 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.php" class="nav-item nav-link">Home</a>
-                        <a href="about.php" class="nav-item nav-link ">About</a>
-                        <a href="members.php" class="nav-item nav-link">Team</a>
+                        <a href="about.php" class="nav-item nav-link ">About Us</a>
+                      <!--  <a href="members.php" class="nav-item nav-link"> Our Team</a>-->
+                        <div class="nav-item dropdown">
+                            <a href="team.php" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Our Team</span>
+                            </a>
+                            <div class="dropdown-menu m-0">
+                            <a href="team.php#management" class="dropdown-item">Management Team</a>
+        <a href="team.php#guidance" class="dropdown-item">Guidance Board</a>
+        <a href="team.php#directors" class="dropdown-item">director's Team</a>
+        <a href="team.php#womens-team" class="dropdown-item">Woman's Team</a>
+        <a href="team.php#legal" class="dropdown-item">legal Team</a>
+        <a href="team.php#ulema" class="dropdown-item">Ulema Team</a>
+                            </div></div>
                         <a href="service.php" class="nav-item nav-link">Services</a>
                        <!-- <a href="blog.php" class="nav-item nav-link">Blogs</a>
                         <div class="nav-item dropdown">
