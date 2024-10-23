@@ -59,7 +59,7 @@
                 <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Pasmanda Vikas Foundation</a>, All rights reserved.</span>
             </div>
             <div class="col-md-6 text-center text-md-end text-body">
-                Designed by <a class="border-bottom text-white" href="https://nicewebtechnologies.com">Nice Web Technologies</a>
+                Designed & developed by <a class="border-bottom text-white" href="https://nicewebtechnologies.com">Nice Web Technologies</a>
             </div>
         </div>
     </div>

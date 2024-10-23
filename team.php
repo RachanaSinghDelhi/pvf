@@ -223,7 +223,7 @@
         </div>
 
         <!-- Member 7: Murtuza Alam -->
-        <div class="col-offset-4 col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.4s">
+        <div class="col-md-6 col-lg-4 offset-md-2 mb-4 wow fadeInUp" data-wow-delay="1.4s">
             <div class="team-item">
                 <div class="team-img">
                     <img src="img/members/guide/murtuza.jpg" class="img-fluid" alt="Murtuza Alam">
@@ -464,6 +464,164 @@
 </div>
 <!-- Legal Advisors End -->
 
+<section class="container py-5" id="executive-members">
+    <br><br>
+    <div class="row g-4">
+        <!-- Executive Members Heading and Description -->
+        <div class="col-12">
+            <h2 class="text-center mb-4">Executive Members</h2>
+            <p class="text-center" style="line-height: 1.8; margin-bottom: 40px;">
+                Our Executive Members are dedicated individuals from various regions, each contributing their expertise and commitment to furthering our mission. They play a crucial role in shaping our initiatives and strategies at the state level.
+            </p>
+        </div>
+
+        <!-- Executive Member 1: Mohammad Touheed -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.2s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/tauheed.jpg" class="img-fluid" alt="Mohammad Touheed - State Executive from Vaishali, Bihar">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Mohammad Touheed</h3>
+                    <p class="mb-0">Vaishali, Bihar</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 2: Md Gilman Akhtar -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.4s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/gilman.jpg" class="img-fluid" alt="Md Gilman Akhtar - State Executive from Delhi">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Md Gilman Akhtar</h3>
+                    <p class="mb-0">Delhi</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 3: Md Jane Alam Shaikh -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.6s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/jane.jpg" class="img-fluid" alt="Md Jane Alam Shaikh - State Executive from Murshidabad, West Bengal">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Md Jane Alam Shaikh</h3>
+                    <p class="mb-0">Murshidabad, West Bengal</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 4: Siddik -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.8s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/godda.jpg" class="img-fluid" alt="Siddik - State Executive from Godda, Jharkhand">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Siddik</h3>
+                    <p class="mb-0">Godda, Jharkhand</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 5: Israr Ahmed Sayyed -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.0s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/israr.jpg" class="img-fluid" alt="Israr Ahmed Sayyed - State Executive from Mumbai, Maharashtra">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Israr Ahmed Sayyed</h3>
+                    <p class="mb-0">Mumbai, Maharashtra</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 6: Zafar Alam -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.2s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/zaffar.jpg" class="img-fluid" alt="Zafar Alam - State Executive from Varanasi, Uttar Pradesh">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Zafar Alam</h3>
+                    <p class="mb-0">Varanasi, Uttar Pradesh</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 7: Mohammad Amjad -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.4s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/amzad.jpg" class="img-fluid" alt="Mohammad Amjad - State Executive from Indore, Madhya Pradesh">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Mohammad Amjad</h3>
+                    <p class="mb-0">Indore, Madhya Pradesh</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 8: Mohd. Firoz -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.6s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/firoz.jpg" class="img-fluid" alt="Mohd. Firoz - State Executive from Hyderabad, Telangana">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Mohd. Firoz</h3>
+                    <p class="mb-0">Hyderabad, Telangana</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 9: Liyakat Ali -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="1.8s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/liyakat.jpg" class="img-fluid" alt="Liyakat Ali - State Executive from Kota, Rajasthan">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Liyakat Ali</h3>
+                    <p class="mb-0">Kota, Rajasthan</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Member 10: Nazir Ahmad Mir -->
+        <div class="col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="2.0s" role="article">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/ahamad.jpg" class="img-fluid" alt="Nazir Ahmad Mir - State Executive from Baramula, Jammu & Kashmir">
+                </div>
+                <div class="team-title text-center mt-3" style="line-height: 1.8;">
+                    <h3 class="mb-0">Nazir Ahmad Mir</h3>
+                    <p class="mb-0">Baramula, Jammu & Kashmir</p>
+                    <p class="mb-0">State Executive</p>
+                </div>
+                </div>
+</div>
+                
+                
+                
+
+
+
+
+
 <br><br>
 <!-- Legal Aid Team Start -->
 <div Id="ulema" class="container py-5">
@@ -556,7 +714,7 @@
 </div>
 </div>
 
-
+</div>
         <!-- Footer Start -->
         <?php include('includes/footer.php'); ?>
         <!-- Footer End -->
