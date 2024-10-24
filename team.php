@@ -618,6 +618,36 @@
                 
                 
 
+<section class="container py-5" id="doctors-team">
+    <br><br>
+    <div class="row g-4">
+        <!-- Doctors Team Heading -->
+        <div class="col-12">
+            <h2 class="text-center mb-4">Our Doctor's Team</h2>
+            <p class="text-center" style="line-height: 1.8; margin-bottom: 40px;">
+                Meet our dedicated team of medical professionals committed to your health.
+            </p>
+        </div>
+
+        <!-- Doctor Team Group Photo 1 -->
+        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/doctors.jpg" class="img-fluid" alt="Doctor's Team Group Photo 1">
+                </div>
+            </div>
+        </div>
+
+        <!-- Doctor Team Group Photo 2 -->
+        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/exemembers/doctors1.jpg" class="img-fluid" alt="Doctor's Team Group Photo 2">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

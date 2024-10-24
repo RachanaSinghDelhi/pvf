@@ -23,7 +23,7 @@
                     <h4 class="text-white mb-4">Contact Info</h4>
                     <div class="d-flex align-items-center">
                         <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                        <p class="text-white mb-0">123 Foundation Street, New Delhi, India</p>
+                        <p class="text-white mb-0">Address: KHASRA NO 26/2, G/F GALI NO.- 3 &4 SANGAM VIHAR, DELHI, WAZIRABAD VILLAGE, Delhi, Delhi, 110084, India</p>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="fas fa-envelope text-primary me-3"></i>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="fa fa-phone-alt text-primary me-3"></i>
-                        <p class="text-white mb-0">(+91) 98765 43210</p>
+                        <p class="text-white mb-0">(+91)9810851819</p>
                     </div>
                 </div>
             </div>
