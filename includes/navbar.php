@@ -20,6 +20,8 @@
                             <a href="team.php#directors" class="dropdown-item">Directors</a>
                             <a href="team.php#management" class="dropdown-item">Management Team</a>
         <a href="team.php#guidance" class="dropdown-item">Guidance Board</a>
+        <a href="team.php#executive-members" class="dropdown-item">Executive Members</a>
+        <a href="team.php#doctors-team" class="dropdown-item">Doctors Team</a>
       
         <a href="team.php#womens-team" class="dropdown-item">Woman's Team</a>
         <a href="team.php#legal" class="dropdown-item">legal Team</a>

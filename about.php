@@ -110,7 +110,7 @@
                                 <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
                                 <div>
                                     <h4>Contact Us</h4>
-                                    <p class="mb-0 fs-5" style="letter-spacing: 1px;">(+91) 98765 43210</p>
+                                    <p class="mb-0 fs-5" style="letter-spacing: 1px;">(+91)9810851819</p>
                                 </div>
                             </div>
                         </div>
