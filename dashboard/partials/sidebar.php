@@ -19,8 +19,8 @@
                     </a>
                     <div class="collapse" id="collapseMembers" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="/members">View Members</a>
-                            <a class="nav-link" href="/add_member">Add Members</a>
+                        <a class="nav-link" href="index.php">View Members</a>
+                            <a class="nav-link" href="add_members.php">Add Members</a>
                           </nav>
                     </div>
 
@@ -33,8 +33,8 @@
                     </a>
                     <div class="collapse" id="collapseGallery" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="/dashboard/gallery">View Gallery</a>
-                            <a class="nav-link" href="/gallery/create">Add New Image</a>
+                            <a class="nav-link" href="gallery.php">View Gallery</a>
+                            <a class="nav-link" href="add_gallery.php">Add New Image</a>
                         </nav>
                     </div>
 
@@ -47,8 +47,8 @@
                     </a>
                     <div class="collapse" id="collapseEvents" aria-labelledby="headingThree" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="/events">Upcoming Events</a>
-                            <a class="nav-link" href="/events/create">Create Event</a>
+                            <a class="nav-link" href="events.php">Upcoming Events</a>
+                            <a class="nav-link" href="add_event.php">Create Event</a>
                         </nav>
                     </div>
 

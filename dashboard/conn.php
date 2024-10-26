@@ -1,7 +1,14 @@
-<?php 
+<?php
+$servername = "localhost";
+$username = "root";  // Update your username
+$password = "";      // Update your password
+$dbname = "pvfound"; // Update your database name
 
- $con=mysqli_connect("localhost","root","","pvfound");
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-if ($con)
-echo "success";
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 ?>
