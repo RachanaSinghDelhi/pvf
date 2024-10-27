@@ -125,37 +125,27 @@
                                     <div class="row g-4">
                                         <div class="col-lg-12 col-xl-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                                                <input type="text" class="form-control border-0" id="name" name="name" placeholder="Your Name">
                                                 <label for="name">Your Name</label>
                                             </div>
                                         </div>
                                         <div class="col-lg-12 col-xl-6">
                                             <div class="form-floating">
-                                                <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                                <input type="email" class="form-control border-0" id="email"  name="email" placeholder="Your Email">
                                                 <label for="email">Your Email</label>
                                             </div>
                                         </div>
                                         <div class="col-lg-12 col-xl-6">
                                             <div class="form-floating">
-                                                <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
+                                                <input type="phone" class="form-control border-0" id="phone"  name="phone" placeholder="Phone">
                                                 <label for="phone">Your Phone</label>
                                             </div>
                                         </div>
-                                        <div class="col-lg-12 col-xl-6">
-                                            <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="project" placeholder="Project">
-                                                <label for="project">Your Project</label>
-                                            </div>
-                                        </div>
+                                       
+                                        
                                         <div class="col-12">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
-                                                <label for="subject">Subject</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-floating">
-                                                <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
+                                                <textarea class="form-control border-0" placeholder="Leave a message here"  name="message" id="message" style="height: 160px"></textarea>
                                                 <label for="message">Message</label>
                                             </div>
 
