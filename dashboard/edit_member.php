@@ -68,7 +68,7 @@ $conn->close(); // Close the database connection
         <div class="row justify-content-center">
             <div class="col-md-8">
             <form id="editMemberForm" enctype="multipart/form-data">
-            <input id="memberId" name="memberId" value="<?php echo $member['id']; ?>"> <!-- Assuming you have the member ID from backend -->
+            <input id="memberId" type="hidden" name="memberId" value="<?php echo $member['id']; ?>"> <!-- Assuming you have the member ID from backend -->
                     <div class="row">
                         <!-- First Column -->
                         <div class="col-md-6">
