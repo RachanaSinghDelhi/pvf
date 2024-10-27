@@ -16,6 +16,10 @@
             <input type="text" class="form-control" name="name" required>
         </div>
         <div class="form-group mb-3">
+            <label>Username</label>
+            <input type="text" class="form-control" name="username" required>
+        </div>
+        <div class="form-group mb-3">
             <label>Email</label>
             <input type="email" class="form-control" name="email" required>
         </div>

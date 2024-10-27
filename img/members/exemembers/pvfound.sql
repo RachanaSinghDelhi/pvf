@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 27, 2024 at 01:38 PM
+-- Generation Time: Oct 27, 2024 at 04:08 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -65,13 +65,6 @@ CREATE TABLE `events` (
 --
 
 INSERT INTO `events` (`id`, `title`, `description`, `event_date`, `created_at`, `updated_at`) VALUES
-(1, 'hjk', 'kkhjk', '2024-10-17', '2024-10-14 06:29:44', '2024-10-14 06:29:44'),
-(2, 'sdfsd', 'dfgdf', '2024-10-12', '2024-10-14 06:40:42', '2024-10-14 06:40:42'),
-(3, 'sdfsd', 'dfgfd', '2024-10-15', '2024-10-14 06:42:42', '2024-10-14 06:42:42'),
-(4, 'gdfg', 'cvcx', '0000-00-00', '2024-10-26 15:05:47', '2024-10-26 15:05:47'),
-(5, 'gdfg', 'cvcx', '0000-00-00', '2024-10-26 15:06:17', '2024-10-26 15:06:17'),
-(6, 'lkj', 'kjlkj', '0000-00-00', '2024-10-26 15:06:24', '2024-10-26 15:06:24'),
-(7, 'lkjklj', 'lkjklj', '0000-00-00', '2024-10-26 15:08:15', '2024-10-26 15:08:15'),
 (12, 'hello', 'hello world', '0000-00-00', '2024-10-27 11:06:21', '2024-10-27 11:06:21'),
 (13, 'hello', 'hello world', '0000-00-00', '2024-10-27 11:06:23', '2024-10-27 11:06:23'),
 (14, 'hello', 'hello world', '0000-00-00', '2024-10-27 11:06:23', '2024-10-27 11:06:23'),
@@ -235,7 +228,16 @@ INSERT INTO `members` (`id`, `name`, `address`, `email`, `phone`, `image`, `is_a
 (27, 'Rakesh Kumar Singh', 'A-1 -  9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 0, '0000-00-00 00:00:00', '2024-10-27 12:43:39'),
 (29, 'Member Name', 'A-1 -  9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 1, '0000-00-00 00:00:00', '2024-10-27 12:41:48'),
 (31, 'Member Name', 'A-1 -  9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 1, '2024-10-25 11:26:37', '2024-10-27 12:41:12'),
-(32, 'ssf6', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'abc@gmail.com', '09312945741', 'default-avatar.png', 1, '2024-10-25 13:47:30', '2024-10-27 12:40:24');
+(32, 'ssf6', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'abc@gmail.com', '09312945741', 'default-avatar.png', 1, '2024-10-25 13:47:30', '2024-10-27 12:40:24'),
+(33, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'emai@gmail.com', '09312945741', 'default-avatar.png', 0, '2024-10-27 19:34:50', '2024-10-27 19:34:50'),
+(34, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 0, '2024-10-27 19:40:32', '2024-10-27 19:40:32'),
+(36, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 0, '2024-10-27 19:42:19', '2024-10-27 19:42:19'),
+(38, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 0, '2024-10-27 19:49:15', '2024-10-27 19:49:15'),
+(39, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 1, '2024-10-27 19:52:44', '2024-10-27 20:38:16'),
+(40, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 1, '2024-10-27 19:54:44', '2024-10-27 20:38:14'),
+(41, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 1, '2024-10-27 19:57:09', '2024-10-27 20:38:13'),
+(42, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 1, '2024-10-27 19:59:17', '2024-10-27 20:38:08'),
+(44, 'New Member', 'A-1 - 9/10 L.S.C Market Jahangir Puri', 'nicewebtechnologies@gmail.com', '09312945741', 'default-avatar.png', 1, '2024-10-27 20:16:02', '2024-10-27 20:22:21');
 
 -- --------------------------------------------------------
 
@@ -306,16 +308,18 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
+  `username` varchar(50) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `password` varchar(255) NOT NULL
+  `password` varchar(255) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `name`, `email`, `password`) VALUES
-(1, 'Rakesh Kumar Singh', 'rakeshdelhi.singh@gmail.com', '$2y$10$lMONFVfWl0L28SvforNOYuhsvqI.0O9U2TapH.5TAbbE7nZwlw0s6');
+INSERT INTO `user` (`id`, `name`, `username`, `email`, `password`, `created_at`) VALUES
+(1, 'Pasmanda Vikas Foundation', 'Admin', 'contact@pasmandavikasfoundation.com', '$2y$10$HLfSH3Bwfb8Jvd8R.AAgneVr4rP6JW1ua48lOVg33ZCtHSilSivai', '2024-10-27 15:06:09');
 
 -- --------------------------------------------------------
 
@@ -426,6 +430,7 @@ ALTER TABLE `sessions`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `username` (`username`),
   ADD UNIQUE KEY `email` (`email`);
 
 --
@@ -473,7 +478,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `members`
 --
 ALTER TABLE `members`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT for table `migrations`
