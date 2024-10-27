@@ -121,7 +121,7 @@
                             <div class="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
                                 <h4 class="text-primary">Send Your Message</h4>
                                 <p class="mb-4">We’re here to help you with any inquiries, feedback, or support you may need. Whether you have questions about our programs, want to get involved, or need assistance, feel free to reach out. Your voice matters to us, and we look forward to connecting with you.</p>
-                                <form>
+                                <form id="contactForm" action="contact_back.php" method="post">
                                     <div class="row g-4">
                                         <div class="col-lg-12 col-xl-6">
                                             <div class="form-floating">
