@@ -51,7 +51,8 @@ if (!isset($_SESSION['user_id'])) {
                                         </div>
                                         <div class="mb-3">
                                             <label for="description" class="form-label">Description:</label>
-                                            <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
+                                            <textarea class="form-control" id="description" name="description" rows="3" maxlength="50" required></textarea>
+        <small id="descriptionHelp" class="form-text text-muted">Maximum 50 characters allowed.</small>
                                         </div>
                                     </div>
                                     <!-- Second Column -->

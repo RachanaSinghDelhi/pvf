@@ -15,7 +15,7 @@ if (!isset($_SESSION['user_id'])) {
 session_start();
 
 // Fetch members from the database
-$query = "SELECT * FROM galleries ORDER BY id DESC";
+$query = "SELECT id, title, SUBSTRING(description, 1, 100) AS short_description, image_path FROM galleries ORDER BY id DESC";
 $result = $conn->query($query);
 
 // Check if the query was successful
@@ -114,7 +114,7 @@ unset($_SESSION['success']);
                                             <tr>
                                                 <td><?= $i++ ?></td>
                                                 <td><?= htmlspecialchars($gallery['title']) ?></td>
-                                                <td><?= htmlspecialchars($gallery['description']) ?></td>
+                                                <td><?=  htmlspecialchars($gallery['short_description']) ?></td>
                                                 <td>
                                                     <img src="uploads/gallery/<?= htmlspecialchars($gallery['image_path']) ?>" alt="<?= htmlspecialchars($gallery['title']) ?>" style="width: 100px; height: auto;">
 

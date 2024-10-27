@@ -119,8 +119,8 @@ $conn->close();
                 <textarea class="form-control" id="description" name="description" required><?php echo isset($galleryItem['description']) ? htmlspecialchars($galleryItem['description']) : ''; ?></textarea>
             </div>
             <div class="mb-3">
-                <label for="image" class="form-label">Image (Optional):</label>
-                <input type="file" class="form-control" id="image" name="image">
+                <label for="image" class="form-label">Image:</label>
+                <input type="file" class="form-control" id="image" name="image" required>
                 <?php if (isset($galleryItem['image_path'])): ?>
                     <div class="mt-3">
                         <img id="imagePreview" src="uploads/gallery/<?php echo htmlspecialchars($galleryItem['image_path']); ?>" alt="Image Preview" style="max-width: 200px; height: auto;">
