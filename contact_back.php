@@ -1,41 +1,62 @@
-  
-
 <?php
-$errors = [];
-$errorMessage = '';
-if (!empty($_POST)) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-      $phone = $_POST['phone'];
-    if (empty($name)) {
-        $errors[] = 'Name is empty';
+// Import PHPMailer classes into the global namespace
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+// Load Composer's autoloader
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
+require 'PHPMailer/Exception.php';
+
+// Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+try {
+    // Server settings
+    $mail->SMTPDebug = 0;                                    // Disable verbose debug output for production
+    $mail->isSMTP();                                         // Send using SMTP
+    $mail->Host       = 'mail.pasmandavikasfoundation.com';   // Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                // Enable SMTP authentication
+    $mail->Username   = 'contact@pasmandavikasfoundation.com'; // SMTP username
+    $mail->Password   = 'Pasmanda@2024';               // SMTP password
+    $mail->SMTPSecure = 'ssl';                               // Enable SSL encryption
+    $mail->Port       = 465;                                 // TCP port for SSL (465)
+
+    // Recipient and Sender settings
+    $mail->setFrom('contact@pasmandavikasfoundation.com', 'Pasmanda Vikas Foundation');
+    $mail->addAddress('nicewebtechnologies@gmail.com', 'Nice Web Technologies'); // Add recipient
+
+    // Content settings
+    $mail->isHTML(true);                                     // Set email format to HTML
+    $mail->Subject = 'New Contact Form Submission';
+
+    // Check if form is submitted and process data
+    if (!empty($_POST)) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+        $phone = $_POST['phone'];
+
+        // Construct email body with form data
+        $mail->Body = "<h3>New Contact Form Submission</h3>
+                       <p><strong>Name:</strong> $name</p>
+                       <p><strong>Email:</strong> $email</p>
+                       <p><strong>Phone:</strong> $phone</p>
+                       <p><strong>Message:</strong><br>$message</p>";
+        
+        // Alternative plain text body
+        $mail->AltBody = "New Contact Form Submission\n\n" .
+                         "Name: $name\n" .
+                         "Email: $email\n" .
+                         "Phone: $phone\n" .
+                         "Message:\n$message";
+
+        // Send the email
+        $mail->send();
+        echo "<script>alert('Message Sent Successfully');</script>";
+        echo "<script>window.open('contact','_self')</script>";
     }
-    if (empty($email)) {
-        $errors[] = 'Email is empty';
-    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'Email is invalid';
-    }
-    if (empty($message)) {
-        $errors[] = 'Message is empty';
-    }
-    if (empty($errors)) {
-        $toEmail = 'contact@pasmandavikasfoundation.com';
-        $emailSubject = 'New email from your contant form';
-        $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
-        $body='Message:'.$message . "\r\n";
-        $body.=', Name:'.$name . "\r\n";
-        $body.=', Phone:'.$phone . "\r\n";
- $body.=', Email:'.$email . "\r\n";
-        if (mail($toEmail, $emailSubject, $body, $headers)) {
-            echo"<script>alert('Message Sent Successfuly');</script>";
-   echo "<script>window.open('contact','_self')</script>";
-        } else {
-            $errorMessage = 'Oops, something went wrong. Please try again later';
-        }
-    } else {
-        $allErrors = join('<br/>', $errors);
-        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-    }
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 ?>
