@@ -45,6 +45,6 @@
                         </div>-->
                         <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                     </div>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
+                    <a href="members.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Members</a>
                 </div>
             </nav>

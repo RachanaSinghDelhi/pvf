@@ -2,7 +2,7 @@
     <div class="container-fluid px-4">
         <div class="d-flex align-items-center justify-content-between small">
             <div class="text-muted">
-                Copyright &copy; Your Website {{ now()->year }} by Nice Web Technologies
+                Copyright &copy; Pasmanda Vikas Foundation 2024 by Nice Web Technologies
             </div>
             <div>
                 <a href="#">Privacy Policy</a>

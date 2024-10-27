@@ -1,64 +1,77 @@
 <?php
 include 'conn.php'; // Include your database connection file
 
-header('Content-Type: application/json'); // Set the content type to JSON
+// Initialize the response message
+$responseMessage = 'An unknown error occurred.';
 
-$response = []; // Initialize a response array
+// Enable error reporting for debugging (only during development)
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-// Check if the request method is POST
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Sanitize and retrieve input values
-    $id = intval($_POST['memberId']);
-    $name = htmlspecialchars($_POST['name']);
-    $address = htmlspecialchars($_POST['address']);
-    $email = htmlspecialchars($_POST['email']);
-    $phone = htmlspecialchars($_POST['phone']);
-    $is_approved = isset($_POST['is_approved']) ? 1 : 0; // Checkbox handling
+try {
+    // Check that the request method is POST
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+        throw new Exception("Invalid request method.");
+    }
+
+    // Validate and sanitize input
+    $id = isset($_POST['memberId']) ? intval($_POST['memberId']) : 0;
+    if ($id <= 0) {
+        throw new Exception("Invalid member ID.");
+    }
+
+    $name = htmlspecialchars($_POST['name'] ?? '');
+    $address = htmlspecialchars($_POST['address'] ?? '');
+    $email = htmlspecialchars($_POST['email'] ?? '');
+    $phone = htmlspecialchars($_POST['phone'] ?? '');
+    $is_approved = isset($_POST['is_approved']) ? 1 : 0;
 
     // Handle image upload
-    $imagePath = null; // Initialize variable for image path
-    if (isset($_FILES['image']) && $_FILES['image']['error'] == UPLOAD_ERR_OK) {
-        $targetDir = 'uploads/'; // Directory to save uploaded images
+    $imagePath = null;
+    if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
+        $targetDir = 'uploads/';
         $imagePath = basename($_FILES['image']['name']);
         $targetFilePath = $targetDir . $imagePath;
 
-        // Move the uploaded file to the target directory
+        // Move the uploaded file
         if (!move_uploaded_file($_FILES['image']['tmp_name'], $targetFilePath)) {
-            $response['success'] = false;
-            $response['message'] = "Failed to upload image.";
-            echo json_encode($response);
-            exit();
+            throw new Exception("Failed to upload image.");
         }
     } else {
-        // If no file is selected, retain the existing image path
+        // Get existing image path if no new image uploaded
         $query = "SELECT image FROM members WHERE id = ?";
         $stmt = $conn->prepare($query);
         $stmt->bind_param("i", $id);
         $stmt->execute();
         $result = $stmt->get_result();
         $member = $result->fetch_assoc();
-        $imagePath = $member['image']; // Use existing image
+
+        if ($member) {
+            $imagePath = $member['image'];
+        } else {
+            throw new Exception("Member not found.");
+        }
     }
 
-    // Prepare and execute update query
+    // Update query
     $sql = "UPDATE members SET name = ?, address = ?, email = ?, phone = ?, image = ?, is_approved = ? WHERE id = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("sssssii", $name, $address, $email, $phone, $imagePath, $is_approved, $id);
 
     if ($stmt->execute()) {
-        $response['success'] = true;
-        $response['message'] = "Member updated successfully!";
+        $responseMessage = "Member updated successfully!";
     } else {
-        $response['success'] = false;
-        $response['message'] = "Error: " . $stmt->error;
+        throw new Exception("Database error: " . $stmt->error);
     }
 
     $stmt->close();
-} else {
-    $response['success'] = false;
-    $response['message'] = "Invalid request method.";
-}
+} catch (Exception $e) {
+    $responseMessage = $e->getMessage();
+} finally {
+    // Close the database connection
+    $conn->close();
 
-$conn->close(); // Close the database connection
-echo json_encode($response); // Return JSON response
+    // Output the response message
+    echo $responseMessage; // Return a simple message
+}
 ?>

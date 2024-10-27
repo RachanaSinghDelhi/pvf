@@ -41,9 +41,9 @@
         </div>
         <!-- Spinner End -->
 
-          <!-- Topbar Start 
-          <?php //include('includes/topbar.php');?>-->
-        <!-- Topbar End -->
+          <!-- Topbar Start -->
+          <?php include('includes/topbar.php');?>
+    <!-- Topbar End -->
 
         <!-- Navbar & Hero Start -->
         <?php include('includes/navbar.php');?>

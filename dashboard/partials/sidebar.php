@@ -3,12 +3,12 @@
         <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
             <div class="sb-sidenav-menu">
                 <div class="nav">
-                    <!-- Core Section -->
+                    <!-- Core Section
                     <div class="sb-sidenav-menu-heading">Core</div>
                     <a class="nav-link" href="/dash">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Dashboard
-                    </a>
+                    </a> -->
 
                     <!-- Members Section -->
                     <div class="sb-sidenav-menu-heading">Members</div>
@@ -52,7 +52,7 @@
                         </nav>
                     </div>
 
-                    <!-- Reports Section -->
+                    <!-- Reports Section 
                     <div class="sb-sidenav-menu-heading">Reports</div>
                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseReports" aria-expanded="false" aria-controls="collapseReports">
                         <div class="sb-nav-link-icon"><i class="fas fa-file-alt"></i></div>
@@ -62,9 +62,9 @@
                     <div class="collapse" id="collapseReports" aria-labelledby="headingFour" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
                             <a class="nav-link" href="/dash">View Reports</a>
-                          <!--  <a class="nav-link" href="/reports/create">Create Report</a>-->
+                          <a class="nav-link" href="/reports/create">Create Report</a>
                         </nav>
-                    </div>
+                    </div>-->
                 </div>
             </div>
 
