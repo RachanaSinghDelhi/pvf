@@ -3,10 +3,10 @@ session_start();
 include 'conn.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $email = $_POST['email'];
+    $uname = $_POST['username'];
     $password = $_POST['password'];
 
-    $query = "SELECT * FROM user WHERE email = '$email'";
+    $query = "SELECT * FROM user WHERE username = '$uname'";
     $result = $conn->query($query);
 
     if ($result->num_rows == 1) {

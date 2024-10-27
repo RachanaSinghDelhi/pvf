@@ -36,9 +36,9 @@ if (isset($_SESSION['user_id'])) {
                 <div class="form-floating mb-3">
                     
                   
-                    <input type="email" class="form-control" name="email" id="email" required>
+                    <input type="text" class="form-control" name="username" id="email" required>
 
-                    <label for="email">Email</label>
+                    <label for="Username">Username</label>
                 </div>
                 <div class="form-floating mb-3">
                   
