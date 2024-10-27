@@ -31,7 +31,6 @@ unset($_SESSION['errors']);
 $success = isset($_SESSION['success']) ? $_SESSION['success'] : '';
 unset($_SESSION['success']);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
