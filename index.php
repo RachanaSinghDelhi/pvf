@@ -94,7 +94,7 @@
                                         </p>
                                         <div class="d-flex justify-content-center flex-shrink-0 mb-4">
                                             <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="https://www.youtube.com/watch?v=5gy2QcfViBM"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
-                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Contact Now</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="contact.php">Contact Now</a>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-center">
                                             <h2 class="text-white me-2">Follow Us:</h2>
