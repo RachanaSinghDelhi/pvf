@@ -3,12 +3,12 @@
 
     <head>
         <meta charset="utf-8">
-        <link rel="icon" href="img/logo2.png" type="image/png">
-        <title>Pasmanda Vikash foundation</title>
+       
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
-
+        <link rel="icon" href="img/images/logo2.png" type="image/png">
+        <title>Pasmanda Vikas Foundation - Contact</title>
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

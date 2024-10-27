@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="icon" href="img/images/logo2.png" type="image/png">
-        <title>PasManda Vikash foundation</title>
+        <title>Pasmanda Vikas Foundation - Team</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">

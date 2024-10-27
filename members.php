@@ -29,8 +29,8 @@ $total_pages = ceil($total_members / $limit);
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="img/logo2.png" type="image/png">
-    <title>PasManda Vikash Foundation</title>
+    <link rel="icon" href="img/images/logo2.png" type="image/png">
+    <title>Pasmanda Vikas Foundation - Members</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">

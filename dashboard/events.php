@@ -36,11 +36,13 @@ unset($_SESSION['success']);
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <link rel="icon" href="../img/images/logo2.png" type="image/png">
+        <title>Pasmanda Vikas Foundation - Dashboard</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Dashboard - SB Admin</title>
+       
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -78,7 +80,7 @@ unset($_SESSION['success']);
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     <?php endif; ?>
-
+                    <img src="../img/images/logo2.png" width="100">
                     <div class="card mb-4">
                         <div class="card-header d-flex justify-content-between align-items-center">
                             <div>
