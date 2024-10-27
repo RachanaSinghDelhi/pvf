@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $allowedfileExtensions = array('jpg', 'gif', 'png', 'jpeg');
         if (in_array($fileExtension, $allowedfileExtensions)) {
             // Set the destination path for the uploaded file
-            $uploadFileDir = 'uploads/';
+            $uploadFileDir = 'dashboard/uploads/';
             $dest_path = $uploadFileDir . md5(time() . $fileName) . '.' . $fileExtension;
 
             // Move the uploaded file
