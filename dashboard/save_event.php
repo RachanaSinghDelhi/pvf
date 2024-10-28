@@ -5,14 +5,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Sanitize and validate inputs
     $title = htmlspecialchars(trim($_POST['title']));
     $description = htmlspecialchars(trim($_POST['description']));
+    $eventdate = htmlspecialchars(trim($_POST['event_datetime']));
 
     // Prepare the SQL statement to insert data into the events table
-    $sql = "INSERT INTO events (title, description) VALUES (?, ?)";
+    $sql = "INSERT INTO events (title, description,event_date) VALUES (?, ?,?)";
     $stmt = $conn->prepare($sql);
 
     if ($stmt) {
         // Bind parameters to the SQL query
-        $stmt->bind_param('ss', $title, $description);
+        $stmt->bind_param('sss', $title, $description,$eventdate);
 
         // Execute the query and check for success
         if ($stmt->execute()) {

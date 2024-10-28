@@ -56,6 +56,10 @@ if (!isset($_SESSION['user_id'])) {
                                             <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
                                         </div>
                                     </div>
+                                    <div class="mb-3">
+        <label for="event_datetime" class="form-label">Event Date & Time:</label>
+        <input type="datetime-local" class="form-control" id="event_datetime" name="event_datetime" required>
+    </div>
                                 
                                 </div>
                                 <button type="submit" class="btn btn-primary mt-3">Add Event</button>

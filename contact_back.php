@@ -1,11 +1,11 @@
 <?php
 // Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-
 // Load Composer's autoloader
 require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
+require  'PHPMailer/SMTP.php';
 require 'PHPMailer/Exception.php';
 
 // Create an instance; passing `true` enables exceptions
@@ -23,8 +23,8 @@ try {
     $mail->Port       = 465;                                 // TCP port for SSL (465)
 
     // Recipient and Sender settings
-    $mail->setFrom('contact@pasmandavikasfoundation.com', 'Pasmanda Vikas Foundation');
-    $mail->addAddress('nicewebtechnologies@gmail.com', 'Nice Web Technologies'); // Add recipient
+    $mail->setFrom('contact@pasmandavikasfoundation.com', 'Pasmanda Vikas Foundation Website');
+    $mail->addAddress('contact@pasmandavikasfoundation.com', 'Pasmanda Vikas Foundation'); // Add recipient
 
     // Content settings
     $mail->isHTML(true);                                     // Set email format to HTML
