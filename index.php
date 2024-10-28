@@ -1,3 +1,20 @@
+
+<?php
+include 'conn.php'; // Include database connection
+
+// Fetch the 10 latest events from the database
+$sql = "SELECT title, description, event_date FROM events ORDER BY event_date DESC LIMIT 10";
+$result = $conn->query($sql);
+
+$events = [];
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        $events[] = $row;
+    }
+}
+$conn->close();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -171,13 +188,40 @@
                     </div>
                     
                     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+
+
+                    <div class="bg-primary rounded position-relative overflow-hidden">
+<div class="container my-5">
+    <h2 class="text-center mb-4">Latest Events</h2>
+    <div class="overflow-hidden">
+        <div id="marquee" class="d-flex flex-nowrap">
+            <?php if (!empty($events)): ?>
+                <?php foreach ($events as $event): ?>
+                    <div class="card m-2" style="min-width: 250px; flex-shrink: 0;">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo htmlspecialchars($event['title']); ?></h5>
+                            <p class="card-text"><?php echo htmlspecialchars($event['description']); ?></p>
+                            <p class="card-text">
+                                <small class="text-muted"><?php echo htmlspecialchars($event['event_date']); ?></small>
+                            </p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            <?php else: ?>
+                <p class="text-center">No events found.</p>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
                         <div class="bg-primary rounded position-relative overflow-hidden">
                             <img src="img/images/images1/22.jpg" class="img-fluid rounded w-100" alt="">
 </div>
 
-<!--<div class="bg-primary rounded position-relative overflow-hidden">
-                            <img src="img/images/images1/22.jpg" class="img-fluid rounded w-100" alt="">
-</div>-->
+
                            <!-- <div class="" style="position: absolute; top: -15px; right: -15px;">
                                 <img src="img/images/images1/05.jpg" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
                             </div>
@@ -463,6 +507,30 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+
+<!-- JavaScript for Marquee Effect -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const marquee = document.getElementById("marquee");
+
+        let scrollAmount = 0;
+        function marqueeScroll() {
+            scrollAmount -= 1;
+            if (Math.abs(scrollAmount) >= marquee.scrollWidth / 2) {
+                scrollAmount = 0;
+            }
+            marquee.style.transform = `translateX(${scrollAmount}px)`;
+        }
+
+        // Start the marquee scroll effect
+        setInterval(marqueeScroll, 20); // Adjust speed by changing the interval
+    });
+</script>
+
+
+
+
     </body>
 
 </html>

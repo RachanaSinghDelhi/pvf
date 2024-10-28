@@ -6,6 +6,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $event_id = intval($_POST['eventId']); // Make sure ID is an integer
     $title = htmlspecialchars(trim($_POST['title']));
     $description = htmlspecialchars(trim($_POST['description']));
+    
+    // Capture and format the event date from the form
+    $event_date = htmlspecialchars(trim($_POST['event_date'])); 
 
     // Ensure all fields are filled in
     if (empty($title) || empty($description) || $event_id <= 0) {
@@ -13,12 +16,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Prepare the SQL statement to update the event data in the database
-    $sql = "UPDATE events SET title = ?, description = ? WHERE id = ?";
+    $sql = "UPDATE events SET title = ?, description = ?, event_date = ? WHERE id = ?";
     $stmt = $conn->prepare($sql);
 
     if ($stmt) {
         // Bind parameters to the SQL query
-        $stmt->bind_param('ssi', $title, $description, $event_id);
+        $stmt->bind_param('sssi', $title, $description, $event_date, $event_id);
 
         // Execute the query and check for success
         if ($stmt->execute()) {

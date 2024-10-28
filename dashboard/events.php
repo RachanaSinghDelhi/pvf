@@ -96,6 +96,7 @@ unset($_SESSION['success']);
                                         <th>#</th>
                                         <th>Title</th>
                                         <th>Description</th>
+                                        <th>Date time</th>
                                    
                                         <th>Actions</th>
                                     </tr>
@@ -105,6 +106,7 @@ unset($_SESSION['success']);
                                         <th>#</th>
                                         <th>Title</th>
                                         <th>Description</th>
+                                        <th>Date Time</th>
                                       
                                         <th>Actions</th>
                                     </tr>
@@ -116,6 +118,7 @@ unset($_SESSION['success']);
                                                 <td><?= $i++ ?></td>
                                                 <td><?= htmlspecialchars($event['title']) ?></td>
                                                 <td><?= htmlspecialchars($event['description']) ?></td>
+                                                <td><?= htmlspecialchars($event['event_date']) ?></td>
                                                 
                                                 <td>
                                                     <!-- Edit Button -->
