@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             // Move the uploaded file
             if (move_uploaded_file($fileTmpPath, $dest_path)) {
-                $imagePath = $dest_path; // Update image path if upload is successful
+                $imagePath = $fileName; // Save only the base name of the file
             } else {
                 $response = 'There was an error moving the uploaded file.';
                 echo $response;
