@@ -75,7 +75,7 @@ if (isset($_GET['id'])) {
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label">Description:</label>
-                <textarea class="form-control" id="description" name="description" required><?php echo isset($events['description']) ? htmlspecialchars($events['description']) : ''; ?></textarea>
+                <textarea class="form-control" maxlength="50" id="description" name="description" required><?php echo isset($events['description']) ? htmlspecialchars($events['description']) : ''; ?></textarea>
             </div>
             <div class="mb-3">
                 <label for="event_date" class="form-label">Event Date & Time</label>

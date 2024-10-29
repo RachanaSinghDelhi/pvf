@@ -118,7 +118,7 @@ $conn->close();
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label">Description:</label>
-                <textarea class="form-control" id="description" name="description" required><?php echo isset($galleryItem['description']) ? htmlspecialchars($galleryItem['description']) : ''; ?></textarea>
+                <textarea class="form-control" maxlength="50" id="description" name="description" required><?php echo isset($galleryItem['description']) ? htmlspecialchars($galleryItem['description']) : ''; ?></textarea>
             </div>
             <div class="mb-3">
                 <label for="image" class="form-label">Image:</label>
