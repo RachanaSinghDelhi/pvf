@@ -476,7 +476,7 @@
         <!-- Ulema Team Members -->
         <!-- Team Member 1 -->
         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="team-item">img/members/ulema/ulema_team/ule_team4.jpg
+            <div class="team-item">
                 <div class="team-img">
                     <img src="img/members/ulema/ulema_team/ulema_team1.jpg" class="img-fluid" alt="Ulema Team">
                 </div><br>
@@ -500,29 +500,7 @@
         </div>
 
          <!-- Team Member 3 -->
-         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="team-item">
-                <div class="team-img">
-                <img src="img/members/ulema/ulema_team/ulema_team3.jpg" class="img-fluid" alt="Ulema Team">
-                </div><br>
-                <div class="team-title text-center mt-3">
-                    <h4 class="mb-0">Ulema Team</h4>
-                    
-                </div>
-            </div>
-        </div>
-        <!-- Additional Ulema Team Member (Example) -->
-</div>
-
-
-
-<div class="row g-4" >
-        
-        <!-- Ulema Team Heading and Description -->
-        
-        <!-- Ulema Team Members -->
-        <!-- Team Member 1 -->
-        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
             <div class="team-item">
                 <div class="team-img">
                     <img src="img/members/ulema/ulema_team/ulema_team4.jpg" class="img-fluid" alt="Ulema Team">
@@ -534,23 +512,9 @@
                 </div>
             </div>
         </div>
-        <!-- Team Member 2 -->
-        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="team-item">
-                <div class="team-img">
-                <img src="img/members/ulema/ulema_team/ule_team4.jpg" class="img-fluid" alt="Ulema Team">
-                </div>
-                <br>
-                <div class="team-title text-center mt-3">
-                    <h4 class="mb-0">Ulema Team</h4>
-                    
-                </div>
-            </div>
-        </div>
-
-         
         <!-- Additional Ulema Team Member (Example) -->
 </div>
+
 
 
 
