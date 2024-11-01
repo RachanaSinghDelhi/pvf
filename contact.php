@@ -90,8 +90,8 @@
                                             </div>
                                             <div>
                                                 <h4>Mail Us</h4>
-                                                <p class="mb-0" style="font-size:16px">pasmandavikasfoundation@gmail.com</p>
-                                                <p class="mb-0" style="font-size:16px">admin@pasmandavikasfoundation.com</p>
+                                                <p class="mb-0" style="font-size:14px">pasmandavikasfoundation@gmail.com</p>
+                                                <p class="mb-0" style="font-size:14px">admin@pasmandavikasfoundation.com</p>
                                             </div>
                                         </div>
                                     </div>
