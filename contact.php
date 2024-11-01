@@ -90,7 +90,8 @@
                                             </div>
                                             <div>
                                                 <h4>Mail Us</h4>
-                                                <p class="mb-0">pasmandavikasfoundation@gmail.com</p>
+                                                <p class="mb-0" style="font-size:16px">pasmandavikasfoundation@gmail.com</p>
+                                                <p class="mb-0" style="font-size:16px">admin@pasmandavikasfoundation.com</p>
                                             </div>
                                         </div>
                                     </div>
@@ -167,7 +168,7 @@
                     </div>
                     <div  class="bg-light p-5 rounded h-100 wow fadeInUp col-md-6" data-wow-delay="0.2s">
                         <div class="rounded h-100">
-                            <h1> Become A Member</h1>
+                            <h1> Donate Now</h1>
                             <hr>
                         <div class="bg-light rounded p-5 mb-5">
 
