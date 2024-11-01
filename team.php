@@ -822,7 +822,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Image 8 -->
+            <!-- Image 8 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="team-item">
                     <div class="team-img">
@@ -830,7 +830,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Image 9 
+          
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="team-item">
                     <div class="team-img">
