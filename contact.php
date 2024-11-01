@@ -113,6 +113,7 @@
                                             <div>
                                                 <h4>Tax ID</h4>
                                                 <p class="mb-0"> AAOCP7557N</p>
+                                                <p class="mb-0"> CERTIFIED 12A & 80G</p>
                                             </div>
                                         </div>
                                     </div>
@@ -142,14 +143,20 @@
                                             </div>
                                         </div>
                                        
-                                        
-                                        <div class="col-12">
+                                      
+                                        <div class="col-md-6">
                                             <div class="form-floating">
                                                 <textarea class="form-control border-0" placeholder="Leave a message here"  name="message" id="message" style="height: 160px"></textarea>
-                                                <label for="message">Message</label>
+                                                <label for="message">Problems are Yours, Solutions are ours</label>
                                             </div>
-
                                         </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <textarea class="form-control border-0" placeholder="Address"  name="address" id="address" style="height: 160px"></textarea>
+                                                <label for="address">Address</label>
+                                            </div>
+                                        </div>
+                                    
                                         <div class="col-12">
                                             <button class="btn btn-primary w-100 py-3">Send Message</button>
                                         </div>

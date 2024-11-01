@@ -62,7 +62,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                     <h4 class="text-primary">Support Our Cause</h4>
-                    <h1 class="display-5 mb-4">Make a Difference with Your Donation</h1>
+                    <h1 class="display-5 mb-4">Donate for the upliftment og Pasmandas</h1>
                     <p>Your generous contributions help us empower the Pasmanda community through various initiatives and programs. Every donation, big or small, plays a vital role in making a positive impact in the lives of those in need.</p>
                     <p>By donating to the Pasmanda Vikas Foundation, you are supporting educational programs, community development, and welfare initiatives that uplift marginalized groups within our society.</p>
                     <!-- Donate Now Button -->
@@ -85,7 +85,7 @@
             </div>
             <div class="modal-body">
          
-                <h6>Become A Member</h6>
+                <h6>Donate Now </h6>
                 <p><strong>PASMANDA VIKAS FOUNDATION</strong></p>
                 <p><strong>C/A No.:</strong> 924020050695947</p>
                 <p><strong>IFSC CODE:</strong> UTIB0001838</p>

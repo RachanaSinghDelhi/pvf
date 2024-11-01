@@ -138,28 +138,8 @@ $('#notificationBtn').on('click', function() {
     markAllAsRead();
 });
 
-/* Function to mark a single notification as read
-function markAsRead(notificationId, listItem) {
-    $.ajax({
-        url: 'mark_as_read.php',
-        method: 'POST',
-        data: { id: notificationId },
-        success: function(response) {
-            if (response.success) {
-                // Change color to indicate it's read
-                listItem.addClass('list-group-item-success');
-                listItem.off('click'); // Remove click handler to prevent marking it as read again
-                updateNotificationCount(); // Update the count after marking
-            } else {
-                console.error('Failed to mark notification as read:', response.message);
-            }
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-            console.error('Error marking notification as read:', textStatus, errorThrown);
-        }
-    });
-}
-*/
+
+
 
 // Call the function when the document is ready
 $(document).ready(function() {

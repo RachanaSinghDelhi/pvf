@@ -92,8 +92,7 @@ $total_pages = ceil($total_members / $limit);
                             <img src="<?= $member['image'] ? 'dashboard/uploads/' . htmlspecialchars($member['image']) : '../img/default-avatar.png' ?>" class="card-img-top img-fluid" alt="<?= htmlspecialchars($member['name']) ?>" style="height: 200px; object-fit: contain;">
                             <div class="card-body">
                                 <h5 class="card-title"><?= htmlspecialchars($member['name']) ?></h5>
-                                <p class="card-text">Email: <?= htmlspecialchars($member['email']) ?></p>
-                                <p class="card-text">Phone: <?= htmlspecialchars($member['phone']) ?></p>
+                              
                             </div>
                         </div>
                     </div>

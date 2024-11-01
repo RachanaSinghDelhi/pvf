@@ -366,7 +366,56 @@
             </div>
         </div>
     </div> <!-- End of Row Wrapper -->
-</div> <!-- End of Container -->
+</div> 
+
+<div class="container py-5">
+<div class="row g-4">
+        <!-- Team Member 3 -->
+        <div class="col-md-6 col-lg-4  wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/management/management (1).jpg" class="img-fluid" alt="Dr Akhtar Ali">
+                </div><br>
+                <div class="team-title text-center mt-3"><br>
+                    <h4 class="mb-0">Management Team</h4>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.0s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/management/management (2).jpg" class="img-fluid" alt="Md Sarwar Alam">
+                </div><br><br>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Management Team</h4>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.0s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/management/management (2).jpg" class="img-fluid" alt="Md Sarwar Alam">
+                </div><br><br>
+                <div class="team-title text-center mt-3">
+                <h4 class="mb-0">Management Team</h4>
+                  
+                </div>
+            </div>
+        </div>
+    </div> <!-- End of Row Wrapper -->
+
+
+
+</div>
+
+
+
+<!-- End of Container -->
 
    
 
@@ -417,6 +466,94 @@
         </div>
         <!-- Additional Ulema Team Member (Example) -->
 </div>
+
+
+
+    <div class="row g-4" >
+        
+        <!-- Ulema Team Heading and Description -->
+        
+        <!-- Ulema Team Members -->
+        <!-- Team Member 1 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">img/members/ulema/ulema_team/ule_team4.jpg
+                <div class="team-img">
+                    <img src="img/members/ulema/ulema_team/ulema_team1.jpg" class="img-fluid" alt="Ulema Team">
+                </div><br>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Ulema Team</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+                <div class="team-img">
+                <img src="img/members/ulema/ulema_team/ulema_team2.jpg" class="img-fluid" alt="Ulema Team">
+                </div><br>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Ulema Team</h4>
+                    
+                </div>
+            </div>
+        </div>
+
+         <!-- Team Member 3 -->
+         <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+                <div class="team-img">
+                <img src="img/members/ulema/ulema_team/ulema_team3.jpg" class="img-fluid" alt="Ulema Team">
+                </div><br>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Ulema Team</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Additional Ulema Team Member (Example) -->
+</div>
+
+
+
+<div class="row g-4" >
+        
+        <!-- Ulema Team Heading and Description -->
+        
+        <!-- Ulema Team Members -->
+        <!-- Team Member 1 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+                <div class="team-img">
+                    <img src="img/members/ulema/ulema_team/ulema_team4.jpg" class="img-fluid" alt="Ulema Team">
+                </div>
+                <br>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Ulema Team</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+                <div class="team-img">
+                <img src="img/members/ulema/ulema_team/ule_team4.jpg" class="img-fluid" alt="Ulema Team">
+                </div>
+                <br>
+                <div class="team-title text-center mt-3">
+                    <h4 class="mb-0">Ulema Team</h4>
+                    
+                </div>
+            </div>
+        </div>
+
+         
+        <!-- Additional Ulema Team Member (Example) -->
+</div>
+
+
+
 
 <!-- Ulema Team Section End -->
 
@@ -705,14 +842,14 @@
                     </div>
                 </div>
             </div>
-            <!-- Image 6 -->
+            <!-- Image 6 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="team-item">
                     <div class="team-img">
                         <img src="img/members/legal_aid/legal (6).jpg" class="img-fluid" alt="Legal Team Member 6">
                     </div>
                 </div>
-            </div>
+            </div>-->
             <!-- Image 7 -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="team-item">
@@ -729,14 +866,14 @@
                     </div>
                 </div>
             </div>
-            <!-- Image 9 -->
+            <!-- Image 9 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="team-item">
                     <div class="team-img">
                         <img src="img/members/legal_aid/legal_aid (3).jpg" class="img-fluid" alt="Legal Team Member 9">
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </div>
