@@ -3,7 +3,7 @@
 include('conn.php');
 
 // Initialize response variable
-$response = ''; // Initialize as a string
+$response = '';
 
 // Check if form data is received
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -22,7 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $checkStmt->fetch();
     $checkStmt->close();
 
-    // If a record already exists
     if ($count > 0) {
         $response = 'You have already applied for membership.';
         echo $response;
@@ -30,45 +29,45 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Handle image upload
-    $imagePath = 'default-avatar.png'; // Set default image path
+    $imagePath = 'default-avatar.png'; // Default image
     if (isset($_FILES['image']) && $_FILES['image']['error'] == UPLOAD_ERR_OK) {
-        // Image upload process
         $fileTmpPath = $_FILES['image']['tmp_name'];
         $fileName = $_FILES['image']['name'];
-        $fileSize = $_FILES['image']['size'];
-        $fileType = $_FILES['image']['type'];
-        $fileNameCmps = explode(".", $fileName);
-        $fileExtension = strtolower(end($fileNameCmps));
+        $fileExtension = strtolower(pathinfo($fileName, PATHINFO_EXTENSION));
+        $allowedExtensions = ['jpg', 'gif', 'png', 'jpeg'];
 
-        // Specify allowed file extensions
-        $allowedfileExtensions = array('jpg', 'gif', 'png', 'jpeg');
-        if (in_array($fileExtension, $allowedfileExtensions)) {
-            // Set the destination path for the uploaded file
-            $uploadFileDir = 'dashboard/uploads/';
-            $dest_path = $uploadFileDir . md5(time() . $fileName) . '.' . $fileExtension;
-
-            // Move the uploaded file
-            if (move_uploaded_file($fileTmpPath, $dest_path)) {
-                $imagePath = $fileName; // Save only the base name of the file
+        if (in_array($fileExtension, $allowedExtensions)) {
+            $uploadDir = 'dashboard/uploads/';
+            $destPath = $uploadDir . md5(time() . $fileName) . '.' . $fileExtension;
+            if (move_uploaded_file($fileTmpPath, $destPath)) {
+                $imagePath = $destPath;
             } else {
-                $response = 'There was an error moving the uploaded file.';
+                $response = 'Error moving the uploaded file.';
                 echo $response;
                 exit();
             }
         } else {
-            $response = 'Upload failed. Allowed file types: ' . implode(", ", $allowedfileExtensions);
+            $response = 'Allowed file types: ' . implode(", ", $allowedExtensions);
             echo $response;
             exit();
         }
     }
 
-    // Prepare SQL to insert the member
+    // Insert member into database
     $sql = "INSERT INTO members (name, email, phone, address, image, is_approved) VALUES (?, ?, ?, ?, ?, 0)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("sssss", $name, $email, $phone, $address, $imagePath);
 
     if ($stmt->execute()) {
         $response = 'Successfully applied for membership. Approval is pending...';
+
+        // Insert notification for new registration
+        $message = "New member registered: $name";
+        $notifSql = "INSERT INTO notifications (message) VALUES (?)";
+        $notifStmt = $conn->prepare($notifSql);
+        $notifStmt->bind_param("s", $message);
+        $notifStmt->execute();
+        $notifStmt->close();
     } else {
         $response = 'Error adding member: ' . $stmt->error;
     }
@@ -77,6 +76,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $conn->close();
 }
 
-// Return response
 echo $response;
 ?>

@@ -281,3 +281,39 @@ $(document).ready(function() {
     });
 });
 
+// Update notification count every 5 seconds
+setInterval(function() {
+    $.ajax({
+        url: 'fetch_notifications.php',
+        method: 'GET',
+        success: function(data) {
+            let notifications = JSON.parse(data);
+            let count = notifications.length;
+            $('#notification-count').text(count);
+        }
+    });
+}, 5000); // Check every 5 seconds
+
+// Show notifications on icon click
+$('#notificationBtn').click(function() {
+    alert("hello");
+    $.ajax({
+        url: 'fetch_notifications.php',
+        method: 'GET',
+        success: function(data) {
+            let notifications = JSON.parse(data);
+            let notificationList = $('#notification-list');
+            notificationList.empty(); // Clear existing notifications
+
+            notifications.forEach(function(notification) {
+                notificationList.append('<li class="list-group-item">' + notification.message + '</li>');
+            });
+
+            $('#notificationDropdown').toggle();
+            
+            // Mark notifications as read
+            $.ajax({ url: 'mark_as_read.php', method: 'POST' });
+            $('#notification-count').text('0'); // Reset count
+        }
+    });
+});
