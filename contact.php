@@ -174,7 +174,7 @@
                             <hr>
                         <div class="bg-light rounded p-5 mb-5">
 
-                            <h3> PASMANDA VIKASH FOUNDATION</h3>
+                            <h3> PASMANDA VIKAS FOUNDATION</h3>
                             <p>C/A No.   : 924020050695947 </p>
                             <p>IFC CODE  : UTIB0001838 </p>
                             <p>BRANCH    : MUKHERGJEE NAGAR,NEW</p>
