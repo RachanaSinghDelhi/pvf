@@ -121,7 +121,7 @@
                                 </div>
                             </div>
                             <div class="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
-                                <h4 class="text-primary">Send Your Message</h4>
+                                <h4 class="text-primary">Problems are Yours, Solutions are ours</h4>
                                 <p class="mb-4">We’re here to help you with any inquiries, feedback, or support you may need. Whether you have questions about our programs, want to get involved, or need assistance, feel free to reach out. Your voice matters to us, and we look forward to connecting with you.</p>
                                 <form id="contactForm" action="contact_back.php" method="post">
                                     <div class="row g-4">
@@ -145,16 +145,18 @@
                                         </div>
                                        
                                       
-                                        <div class="col-md-6">
-                                            <div class="form-floating">
-                                                <textarea class="form-control border-0" placeholder="Leave a message here"  name="message" id="message" style="height: 160px"></textarea>
-                                                <label for="message">Problems are Yours, Solutions are ours</label>
-                                            </div>
-                                        </div>
+                                        
                                         <div class="col-md-6">
                                             <div class="form-floating">
                                                 <textarea class="form-control border-0" placeholder="Address"  name="address" id="address" style="height: 160px"></textarea>
                                                 <label for="address">Address</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <textarea class="form-control border-0" placeholder="Leave a message here"  name="message" id="message" style="height: 160px"></textarea>
+                                                <label for="message">Send Your Message</label>
                                             </div>
                                         </div>
                                     
