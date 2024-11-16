@@ -122,7 +122,7 @@ unset($_SESSION['success']);
                                                 <td><?= htmlspecialchars($member['phone']) ?></td>
                                                 <td>
                                                     <?php if ($member['image']): ?>
-                                                        <img src="uploads/<?= htmlspecialchars($member['image']) ?>" alt="<?= htmlspecialchars($member['name']) ?>" style="width: 50px; height: auto;">
+                                                        <img src="<?= htmlspecialchars($member['image']) ?>" alt="<?= htmlspecialchars($member['name']) ?>" style="width: 50px; height: auto;">
                                                     <?php else: ?>
                                                         <img src="../img/default-avatar.png" alt="Default Avatar" style="width: 50px; height: auto; border-radius: 50%;">
                                                     <?php endif; ?>
