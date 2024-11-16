@@ -114,35 +114,55 @@ $(document).ready(function() {
 
  // Load gallery list using AJAX
 
-
-$(document).ready(function () {
+ $(document).ready(function () {
     $('#addGalleryForm').on('submit', function (e) {
-        e.preventDefault(); // Prevent default form submission
+        e.preventDefault();
 
-        let formData = new FormData(this); // Get form data
+        const formData = new FormData(this);
 
-        // Perform AJAX request
         $.ajax({
-            url: 'save_gallery.php', // Your PHP file to handle the request
-            method: 'POST',
+            url: 'save_gallery.php', // Backend script for saving gallery
+            type: 'POST',
             data: formData,
-            contentType: false, // Prevent jQuery from overriding content type
-            processData: false, // Prevent jQuery from transforming the data into a query string
+            processData: false,
+            contentType: false,
             success: function (response) {
-                // Clear any previous messages
-                $('#response').removeClass('d-none').addClass('alert-success').text(response);
-                $('#galleryForm')[0].reset(); // Reset the form after submission
-                loadGallery(); // Reload the gallery list to show the new entry
-
-                // Optionally, you can add a timeout to clear the response message after a few seconds
-                setTimeout(function () {
-                    $('#response').addClass('d-none'); // Hide response message after 3 seconds
-                }, 3000);
+                const res = JSON.parse(response);
+                if (res.success) {
+                    $('#response')
+                        .removeClass('d-none alert-danger')
+                        .addClass('alert-success')
+                        .text(res.success);
+                    $('#addGalleryForm')[0].reset();
+                    $('#imagePreviews').html(''); // Clear previews
+                } else if (res.error) {
+                    $('#response')
+                        .removeClass('d-none alert-success')
+                        .addClass('alert-danger')
+                        .text(res.error);
+                }
             },
-            error: function (xhr, status, error) {
-                // Handle error scenario
-                $('#response').removeClass('d-none').addClass('alert-danger').text('Error: ' + xhr.responseText);
+            error: function () {
+                $('#response')
+                    .removeClass('d-none alert-success')
+                    .addClass('alert-danger')
+                    .text('An unexpected error occurred.');
             }
+        });
+    });
+
+    // Image previews
+    $('#images').on('change', function () {
+        const files = this.files;
+        const previewsContainer = $('#imagePreviews');
+        previewsContainer.html('');
+
+        Array.from(files).forEach(file => {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                previewsContainer.append(`<img src="${e.target.result}" style="max-width: 100px; height: auto; margin: 5px;">`);
+            };
+            reader.readAsDataURL(file);
         });
     });
 });
@@ -174,14 +194,14 @@ $(document).ready(function () {
 $(document).ready(function() {
     $('.delete-gallery-btn').click(function() {
         var memberId = $(this).data('id');
-        if (confirm('Are you sure you want to delete this member?')) {
+        if (confirm('Are you sure you want to delete this Image?')) {
             $.ajax({
                 url: 'delete_gallery.php', // Your backend PHP file
                 type: 'POST',
                 data: { id: memberId },
                 success: function(response) {
                     if (response.success) {
-                        alert('Member deleted successfully.');
+                        alert('Image deleted successfully.');
                         location.reload(); // Refresh the page
                     } else {
                         alert('Error: ' + response.message);

@@ -43,35 +43,31 @@ if (!isset($_SESSION['user_id'])) {
                     <div id="response" class="alert alert-success mt-3 d-none"></div>
                     <div class="row justify-content-center">
                         <div class="col-md-8">
-                            <form id="addGalleryForm" enctype="multipart/form-data">
-                                <div class="row">
-                                    <!-- First Column -->
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label for="title" class="form-label">Title:</label>
-                                            <input type="text" class="form-control" id="title" name="title" required>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="description" class="form-label">Description:</label>
-                                            <textarea class="form-control" id="description" name="description" rows="3" maxlength="50" required></textarea>
-        <small id="descriptionHelp" class="form-text text-muted">Maximum 50 characters allowed.</small>
-                                        </div>
-                                    </div>
-                                    <!-- Second Column -->
-                                    <div class="col-md-6">
-                                        <div class="mb-3">
-                                            <label for="image" class="form-label">Image:</label>
-                                            <input type="file" class="form-control" id="image" name="image" required>
-                                            <!-- Image preview -->
-                                            <div class="mt-3">
-                                                <img id="imagePreview" src="" alt="Image Preview" style="max-width: 200px; height: auto; display: none;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn btn-primary mt-3">Add Gallery</button>
-                                <a href="gallery.php" class="btn btn-primary mt-3">Gallery List</a>
-                            </form>
+                        <form id="addGalleryForm" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title:</label>
+                <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description:</label>
+                <textarea class="form-control" id="description" name="description" rows="3" maxlength="200" required></textarea>
+                <small id="descriptionHelp" class="form-text text-muted">Maximum 200 characters allowed.</small>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="images" class="form-label">Images:</label>
+                <input type="file" class="form-control" id="images" name="images[]" multiple required>
+                <!-- Image previews -->
+                <div class="mt-3" id="imagePreviews"></div>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Add Gallery</button>
+    <a href="gallery.php" class="btn btn-primary mt-3">Gallery List</a>
+</form>
                         </div>
                     </div>
                 </div>

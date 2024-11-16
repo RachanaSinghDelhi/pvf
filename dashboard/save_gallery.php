@@ -1,58 +1,66 @@
 <?php
-include 'conn.php'; // Includes the database connection
+// Include the database connection
+include 'conn.php';
 
+// Start the session to verify the logged-in user
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    header("Location: ../login_register/login.php");
+    exit();
+}
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Sanitize and validate inputs
-    $title = htmlspecialchars(trim($_POST['title']));
-    $description = htmlspecialchars(trim($_POST['description']));
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $title = mysqli_real_escape_string($conn, $_POST['title']);
+    $description = mysqli_real_escape_string($conn, $_POST['description']);
 
-    // Initialize image path
-    $imagePath = null;
-
-    // Handle file upload if an image is provided
-    if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
-        $imageTmpPath = $_FILES['image']['tmp_name'];
-        $imageName = $_FILES['image']['name'];
-        
-        // Get the base name of the image
-        $imageBaseName = basename($imageName);
-        
-        // Define the upload path
-        $uploadPath = 'uploads/gallery/' . $imageBaseName;
-
-        // Move the uploaded file to the designated folder
-        if (move_uploaded_file($imageTmpPath, $uploadPath)) {
-            // Store only the base name in the database
-            $imagePath = $imageBaseName;
-        } else {
-            echo 'Error uploading image';
-            exit;
-        }
+    $response = [];
+    $uploadDir = __DIR__ . '/uploads/gallery/'; // Corrected directory path
+    if (!is_dir($uploadDir)) {
+        mkdir($uploadDir, 0755, true);
     }
 
-    // Prepare the SQL statement to insert gallery data into the database
-    $sql = "INSERT INTO galleries (title, description, image_path) VALUES (?, ?, ?)";
-    $stmt = $conn->prepare($sql);
+    if (isset($_FILES['images'])) {
+        $fileCount = count($_FILES['images']['name']);
+        $errors = [];
+        $successCount = 0;
 
-    if ($stmt) {
-        // Bind parameters to the SQL query
-        $stmt->bind_param('sss', $title, $description, $imagePath);
-        
-        // Execute the query and check for success
-        if ($stmt->execute()) {
-            echo 'Gallery added successfully!';
-        } else {
-            echo 'Error adding gallery: ' . $stmt->error;
+        for ($i = 0; $i < $fileCount; $i++) {
+            $fileName = $_FILES['images']['name'][$i];
+            $fileTmpPath = $_FILES['images']['tmp_name'][$i];
+            $fileExtension = strtolower(pathinfo($fileName, PATHINFO_EXTENSION));
+            $newFileName = time() . "_$i." . $fileExtension; // Unique filename
+            $destPath = $uploadDir . $newFileName;
+
+            // Validate file type
+            $allowedExtensions = ['jpg', 'jpeg', 'png', 'gif'];
+            if (!in_array($fileExtension, $allowedExtensions)) {
+                $errors[] = "$fileName: Invalid file type.";
+                continue;
+            }
+
+            // Move file and insert record into database
+            if (move_uploaded_file($fileTmpPath, $destPath)) {
+                $sql = "INSERT INTO galleries (title, description, image_path, created_at) 
+                        VALUES ('$title', '$description', '$newFileName', NOW())";
+
+                if (mysqli_query($conn, $sql)) {
+                    $successCount++;
+                } else {
+                    $errors[] = "$fileName: Database error.";
+                }
+            } else {
+                $errors[] = "$fileName: Failed to upload.";
+            }
         }
-        $stmt->close();
+
+        $response['success'] = "$successCount image(s) uploaded successfully.";
+        if (!empty($errors)) {
+            $response['error'] = implode(' ', $errors);
+        }
     } else {
-        echo 'Database query error: ' . $conn->error;
+        $response['error'] = 'No images uploaded.';
     }
 
-    // Close the database connection
-    $conn->close();
-} else {
-    echo 'Invalid request method.';
+    echo json_encode($response);
 }
 ?>
