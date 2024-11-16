@@ -11,8 +11,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
  
-// Start session to handle flash messages
-session_start();
+
 
 // Fetch members from the database
 $query = "SELECT id, title, SUBSTRING(description, 1, 100) AS short_description, image_path FROM galleries ORDER BY id DESC";
