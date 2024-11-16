@@ -89,7 +89,7 @@ $total_pages = ceil($total_members / $limit);
                 <?php while ($member = $result->fetch_assoc()): ?>
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="<?= $member['image'] ? 'dashboard/uploads/' . htmlspecialchars($member['image']) : '../img/default-avatar.png' ?>" class="card-img-top img-fluid" alt="<?= htmlspecialchars($member['name']) ?>" style="height: 200px; object-fit: contain;">
+                            <img src="<?= $member['image'] ? 'dashboard/' . htmlspecialchars($member['image']) : '../img/default-avatar.png' ?>" class="card-img-top img-fluid" alt="<?= htmlspecialchars($member['name']) ?>" style="height: 200px; object-fit: contain;">
                             <div class="card-body">
                                 <h5 class="card-title"><?= htmlspecialchars($member['name']) ?></h5>
                               
